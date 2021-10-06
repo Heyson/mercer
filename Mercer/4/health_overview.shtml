@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<title>Marsh & McLennan Companies - Health and Benefits Enrollment - Health Benefits Overview</title>
+
+<!-- Mobile Specific
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/boxed.css" id="layout">
+<link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">
+
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<!-- scrollUp scripts -->
+<script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+<script>
+		/* scrollUp Minimum setup */
+		$(function () {
+			$.scrollUp();
+		});
+</script>
+<script src="js/custom.js"></script>
+<script src="js/selectnav.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/twitter.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/fancybox.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/isotope.js"></script>
+
+<!-- SEARCH
+================================================== -->
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<!--[if gte IE 7]>
+<style type="text/css">
+		.mobile-search { display:none;}
+</style>
+<![endif]-->
+
+<!-- syntax highlighter -->
+<script src="preview-assets/js/highlight.pack.js"></script>
+<script src="preview-assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+<script> hljs.initHighlightingOnLoad();</script>
+
+<!-- preview-related stylesheets -->
+<link href="preview-assets/css/reset.css" rel="stylesheet" type="text/css">
+<link href="preview-assets/css/grid.css" rel="stylesheet">
+<link href="preview-assets/css/smoothness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+<link href="preview-assets/css/github.css" rel="stylesheet">
+
+<!-- slider stylesheets -->
+<link href="royalslider/default/rs-default.css" rel="stylesheet">
+<link href="preview-assets/css/main.css" rel="stylesheet">
+<link href="preview-assets/css/sliderstyles.css" rel="stylesheet">
+
+<!-- scrollUp stylesheets -->
+<link id="scrollUpTheme" rel="stylesheet" href="css/themes/image.css">
+<link id="scrollUpTheme" rel="stylesheet" href="css/labs.css">
+
+<!-- Styles Switcher
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/switcher.css">
+<script src="js/switcher.js"></script>
+<style type="text/css">
+@media only screen and (min-width: 960px) {
+#portfolio-wrapper img {
+	min-height: 189px;
+}
+}
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+#portfolio-wrapper img {
+	min-height: 149px;
+}
+}
+</style>
+
+<!--Countdown Timer -->
+<script language="JavaScript">
+TargetDate = "11/16/2013";
+BackColor = "#none";
+ForeColor = "#000";
+CountActive = true;
+CountStepper = -1;
+LeadingZero = false;
+DisplayFormat = "%%D%% days";
+FinishMessage = "expired";
+</script>
+<!--End Countdown Timer -->
+
+<!-- For shadowbox -->
+<script type="text/javascript" src="shadowbox-3.0.3/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init({
+
+});
+</script>
+<!-- / For shadowbox -->
+
+<!-- Nav current state -->
+<script type="text/javascript" src="js/jquery-1.8.1.min"></script>
+<style>
+#navigation ul li a.selected {
+	background:#5e77a1;
+	color: #EEE;
+}
+</style>
+<script>
+ $(function() {
+     var pgurl = window.location.href.substr(window.location.href
+.lastIndexOf("/")+1);
+     $("#navigation ul li a").each(function(){
+          if($(this).attr("href") == pgurl)
+          $(this).addClass("selected");
+     })
+});
+ </script>
+<!-- FANCYBOX -->
+<script type="text/javascript" src="js/fancybox/main.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+<!-- / FANCYBOX -->
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52219331-12', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- / Google Analytics -->
+</head>
+<body>
+
+<!-- Wrapper Start -->
+<div id="wrapper"> 
+  
+  <!-- Header
+================================================== -->
+  
+  <div class="container"> 
+    
+    <!-- Header -->
+    <div id="header"> 
+      <!--#include file="includes/logo.shtml" --> 
+      <!--#include file="includes/header_title.shtml" --> 
+    <!--#include file="includes/nav.shtml" --> 
+  </div>
+  
+  <!-- Content
+================================================== --> 
+  
+  <!-- 960 Container -->
+  <div class="container">
+    <div class="sixteen columns"> 
+      
+      <!-- Page Title -->
+      <div id="page-title"> 
+        <!-- The mobile-search include below is for the site search to appear below the nav drop-down on 
+      mobile devices only. It will not appear for desktop users. --> 
+        <!--#include file="includes/mobile-search.shtml" -->
+        <h2>Health Benefits Overview</h2>
+        <p>Your Marsh &amp; McLennan Companies health benefits  can help you and your family stay healthy and obtain care for an illness,  injury, or medical condition. Learn more about the choices available to you and  the coverage each plan provides.</p>
+      </div>
+      <!-- Page Title / End --> 
+      
+    </div>
+  </div>
+  <!-- 960 Container / End --> 
+  
+  <!-- 960 Container -->
+  <div class="container"> 
+    
+    <!-- Portfolio Content -->
+    <div id="portfolio-wrapper"> 
+      
+      <!-- 1/3 Column -->
+      <div class="one-third column">
+        <div class="picture"><a href="medical.shtml"><img src="images/medical.gif" alt="medical"/>
+          <div class="image-overlay-link"></div>
+          </a></div>
+        <div id="alt2" class=" item-description" style="height:auto">
+          <h5>MEDICAL</h5>
+          <p class="sidebartext">Depending on where you live, your medical plan choices  may include a CDHP, PPO, EPO, HMO, and/or PPP. Learn how they differ in  per-paycheck cost, per-service cost, and provider choice. <a href="medical.shtml">More &raquo;</a></p>
+        </div>
+      </div>
+      
+      <!-- 1/3 Column -->
+      <div class="one-third column">
+        <div class="picture"><a href="dental.shtml"><img src="images/dental.gif" alt="dental"/>
+          <div class="image-overlay-link"></div>
+          </a></div>
+        <div id="alt2" class="item-description" style="height:auto">
+          <h5>DENTAL</h5>
+          <p class="sidebartext">Dental health is an important part of your overall  health. Learn about the coverage available. <a href="dental.shtml">More &raquo;</a></p>
+          <p>&nbsp;</p>
+          <br />
+        </div>
+      </div>
+      
+      <!-- 1/3 Column -->
+      <div class="one-third column">
+        <div class="picture"><a href="vision.shtml"><img src="images/vision.gif" alt="vision"/>
+          <div class="image-overlay-link"></div>
+          </a></div>
+        <div id="alt2" class="item-description" style="height:auto">
+          <h5>VISION</h5>
+          <p class="sidebartext">You can now choose from two levels of vision coverage  based on your needs — Basic or Premier. <a href="vision.shtml">More &raquo;</a></p>
+          <p>&nbsp;</p>
+          <br />
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      
+      <!-- 1/3 Column -->
+      <div class="one-third column">
+        <div class="picture"><a href="fsa_hsa.shtml"><img src="images/fsahsa.gif" alt="fsa/hsa"/>
+          <div class="image-overlay-link"></div>
+          </a></div>
+        <div id="alt2" class="item-description" style="height:auto">
+          <h5>HSA/FSA</h5>
+          <p class="sidebartext">You can save money on eligible health care and/or  dependent care expenses when you use these tax-advantaged accounts. <a href="fsa_hsa.shtml">More &raquo;</a></p>
+        </div>
+      </div>
+      
+      <!-- 1/3 Column -->
+      <div class="one-third column">
+        <div class="picture"><a href="wellness.shtml"><img src="images/wellness.gif" alt="wellness"/>
+          <div class="image-overlay-link"></div>
+          </a></div>
+        <div id="alt2" class="item-description" style="height:auto">
+          <h5>PROGRAMS</h5>
+          <p class="sidebartext">Your health — and the health of your family members —  is vitally important to us. That&rsquo;s why  we offer you HealthyMe and other valuable  programs. <a href="wellness.shtml">More &raquo;</a></p>
+        </div>
+      </div>
+      
+      <!-- 1/3 Column -->
+      <div class="one-third column">
+        <div class="picture"><a href="be_well.shtml"><img src="images/control_costs.gif" alt="control costs"/>
+          <div class="image-overlay-link"></div>
+          </a></div>
+        <div  id="alt2" class="item-description" style="height:auto">
+          <h5>BE WELL, BUY SMART</h5>
+          <p class="sidebartext">By making thoughtful choices, you have the potential  to improve your health and lower your costs. <a href="be_well.shtml">More &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio Content --> 
+    
+  </div>
+  <!-- End 960 Container --> 
+  <!-- Footer --> 
+  <!--#include file="includes/footer_i.shtml" --> 
+</div>
+<!-- Wrapper / End -->
+
+</body>
+</html>

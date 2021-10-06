@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head><link rel="stylesheet" type="text/css" href="css/style.css" media="">
+<meta charset="utf-8" />
+<title>Calorie Burning Power</title>
+
+<!--<style>
+body {
+	font-family: Arial;
+	color: #333;
+}
+#main {
+	background: #fff;
+	width: 916px;
+	height: 300px;
+	padding: 0;
+	margin: 0 auto;
+}
+#main #header {
+	height: 55px;
+	background-color: #fff;
+}
+#main #main-nav {
+	list-style: none;
+	display: inline-block;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+#main #main-nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 15px 0 15px;
+	margin: 0;
+	height: 25px;
+	color: #084393;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+#main #main-nav li.active, #main #main-nav li:hover {
+	background-color: #333;
+	color: #fff;
+}
+#main #content {
+	height: 245px;
+	width: 900px;
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	float: left;
+	position: relative;
+	background: #fff url(i/bg-content.png) repeat-x left top;
+}
+#main #about {
+	margin: 20px 0 0 20px;
+	width: 280px;
+}
+#main #note {
+	font-size: 20px;
+	position: absolute;
+	left: 20px;
+	bottom: 55px;
+	width: 200px;
+}
+#main #art {
+	display: none;
+	position: absolute;
+	left: 250px;
+	bottom: 0;
+	width: 650px;
+	z-index: 20;
+	pointer-events: none;
+}
+#main #cbp-title {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #333;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+#main #cbp-bar {
+	position: absolute;
+	top: 50px;
+	right: 25px;
+}
+#main #content #next, #main #content #prev {
+	position: absolute;
+	width: 120px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #084393;
+	right: 0;
+	bottom: 35px;
+	padding: 5px 15px;
+	text-align: center;
+	z-index: 15;
+}
+#main #content #prev {
+	right: 150px;
+}
+#main #content #next:hover, #main #content #prev:hover {
+	background-color: #333;
+}
+#main .button2 {
+	margin: 10px 0;
+	width: 95px;
+	text-align: center;
+}
+#main .clear {
+	clear: both;
+}-->
+<!--[if IE]>  #main #art {z-index: 10;} <![endif]
+
+</style>-->
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/jquery-ui-1.10.0-all.custom.min.js"></script>
+<script>
+	jQuery(function () { document.documentElement.focus(); });
+</script>
+<script type="text/javascript">
+	var slide = 0;
+	var dots = ["cbp2.gif","cbp3.gif","cbp5.gif","cbp2.gif","cbp1.gif","cbp4.gif","cbp3.gif","cbp5.gif"];
+	var images = ["car.png","bus.png","bike.png","stairs.png","note.png","legs.png","shoes.png","flowers.png"];
+	var descriptions = ["Park farther away from your building and walk.","Get off the bus a stop early and walk a few more blocks.","Ride your bike to work one day a week.","Skip the elevator – take the stairs instead.","Walk over to your coworker’s desk rather than calling.","Do leg lifts, crunches or push-ups in your room.","Take a walk around the block with a friend.","Work up a sweat gardening in your yard."];
+
+$(document).ready(function(){
+
+// PRELOAD THE IMAGES
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        	$('<img/>')[0].src = this;
+    });
+}
+// ANIMATE THE ART
+	$('#art').show('slide',{direction: 'right'},'slow');
+// LIST THE IMAGES HERE
+preload([
+    	'i/car.png',
+    	'i/bus.png',
+    	'i/bike.png',
+    	'i/stairs.png',
+    	'i/note.png',
+    	'i/legs.png',
+    	'i/shoes.png',
+    	'i/flowers.png'
+	]);
+//CHANGE POINTER
+	$('.button').css('cursor','pointer');
+//HOVER AND ACTIVE STATES - BUTTON FUNCTION
+	$('.button').click(function(e) {
+		$('#art').hide();
+  		$('.button').removeClass('active');
+  		$(this).addClass('active');
+		var i = $(this).data("index");
+  			$("#art").html("<img src=i/" + images[i] + " />").show('slide',{direction: 'right'},'slow');
+  			$("#cbp-bar").html("<img src=i/" + dots[i] + " />");
+  			$("#note").html(descriptions[i]);
+  			slide = i;
+		});
+	// NEXT BUTTON
+	$('#next').click(function(e) {
+		if (slide == 7) {
+			slide = 0;
+			$('.button').removeClass('active');
+			$('#button1').addClass('active');
+		} else if (slide == 2) {
+			slide = slide + 1;
+			$('.button').removeClass('active');
+			$('#button2').addClass('active');
+		} else if (slide == 4) {
+			slide = slide + 1;
+			$('.button').removeClass('active');
+			$('#button3').addClass('active');
+		} else if (slide == 5) {
+			slide = slide + 1;
+			$('.button').removeClass('active');
+			$('#button4').addClass('active');
+		}	else {
+			slide = slide + 1;
+		}
+		$('#art').hide();		
+  			$("#art").html("<img src=i/" + images[slide] + " />").show('slide',{direction: 'right'},'slow');
+  			$("#cbp-bar").html("<img src=i/" + dots[slide] + " />");
+  			$("#note").html(descriptions[slide]);
+		});
+	// PREVIOUS BUTTON
+	$('#prev').click(function(e) {
+		if (slide == 0) {
+			slide = 7;
+			$('.button').removeClass('active');
+			$('#button4').addClass('active');
+		} else if (slide == 3) {
+			slide = slide - 1;
+			$('.button').removeClass('active');
+			$('#button1').addClass('active');
+		} else if (slide == 5) {
+			slide = slide - 1;
+			$('.button').removeClass('active');
+			$('#button2').addClass('active');
+		} else if (slide == 6) {
+			slide = slide - 1;
+			$('.button').removeClass('active');
+			$('#button3').addClass('active');
+		}	else {
+			slide = slide - 1;
+		}
+		$('#art').hide();
+  			$("#art").html("<img src=i/" + images[slide] + " />").show('slide',{direction: 'right'},'slow');
+  			$("#cbp-bar").html("<img src=i/" + dots[slide] + " />");
+  			$("#note").html(descriptions[slide]);
+		});
+		
+	});
+</script>
+</head>
+<body>
+<div id="main">
+<div id="header">
+<ul id="main-nav">
+<li class="button active" id="button1" data-index="0">Getting to Work</li>
+<li class="button" id="button2" data-index="3">At Work</li>
+<li class="button" id="button3" data-index="5">On Business</li>
+<li class="button" id="button4" data-index="6">At Home</li>
+</div>
+<div id="content">
+	<p id="about">Find ways to incorporate physical activity into your daily routine because every little thing you do adds up to a healthier you!</p>
+	<div id="note">Park farther away from your building and walk.</div>
+	<div id="art"><img src="i/car.png"></div>
+	<p id="cbp-title">Calorie Burning Power</p>
+	<div id="cbp-bar"><img src="i/cbp2.gif"></div>
+	<div id="prev">Previous</div>
+	<div id="next">Next</div>
+</div>
+</div>
+<!--<style>
+@media only screen and (max-width: 480px) {
+	body {
+	font-family: Arial;
+	color: #333;
+	width: 320px;
+}
+#main {
+	background: #fff;
+	width: 320px;
+	height: 300px;
+	padding: 0;
+	margin: 0 auto;
+}
+#main #header {
+	height: 38px;
+	background-color: #fff;
+	width: 320px;
+}
+#main #main-nav {
+	list-style: none;
+	display: inline-block;
+	margin: 20px 0 0px 0;
+	padding-top: 30;
+	width: 290px;
+}
+#main #main-nav li {
+	list-style: none;
+	display: inline;
+	padding: 50px 5px 0 5px;
+	margin: 0;
+	height: 25px;
+	color: #084393;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	width: 290px;
+}
+#main #main-nav li.active, #main #main-nav li:hover {
+	background-color: #333;
+	color: #fff;
+	width: 290px;
+}
+#main #content {
+	margin-top:0px;
+	height: 500px;
+	width: 320px;
+		color: #fff;
+	font-size: 14px;
+	float: left;
+	
+	background: #de6037 ;
+}
+#main #about {
+	margin: 120px 0px 0px 20px;
+	width: 200px;
+}
+#main #note {
+	font-size: 10px;
+	
+	left: 20px;
+	bottom: 55px;
+	width: 100px;
+	
+}
+#main #art {
+	display: none;
+	
+	left: 10px;
+	width: 325px;
+	z-index: 20;
+	pointer-events: none;
+	}
+	 #main #art img{
+		max-width:240px;
+		padding-bottom:90px;
+		 }
+	
+#main #cbp-title {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #333;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+#main #cbp-bar {
+	position: absolute;
+	top: 50px;
+	right: 25px;
+}
+#main #content #next, #main #content #prev {
+	
+	width: 100px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #084393;
+	float:left;
+	bottom: 5px;
+	padding: 10px 65px 5px 5px;
+	text-align: left;
+	z-index: 1;
+	margin-top:50px;
+}
+#main #content #prev {
+	
+}
+#main #content #next:hover, #main #content #prev:hover {
+	background-color: #333;
+}
+#main .button2 {
+	margin: 10px 0;
+	width: 170px;
+	text-align: center;
+}
+#main .clear {
+	clear: both;
+}<!--[if IE]>  #main #art {z-index: 10;} <![endif]
+
+	
+#content {
+	width:320px;
+	height: 900px;
+	
+	}	
+	
+	}
+
+</style>-->
+</body>
+</html>

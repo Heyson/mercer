@@ -1,0 +1,16 @@
+
+<!--******************************************************************************************************************************************************************
+	SLIDE OUT FUNCTIONALITY
+********************************************************************************************************************************************************************-->
+<div id="share"><img src="img/learn-more.png"></div>
+<div id="shareExpandedModal">
+  <div id="shareBox">
+    <div class="share-title">HOW DO I?</div>
+    <p> <a href="enroll.shtml">Enroll in my benefits</a><br>
+      <a href="ben_options_medical.shtml">Compare the medical plans</a><br>
+      <a href="tools_resources_contacts.shtml">Contact a benefits provider</a><br>
+      <a href="tools_resources_eligibility.shtml">See who’s eligible for benefits</a><br>
+      <a href="tools_resources_glossary.shtml">Access a glossary of key terms</a><br>
+      <a href="enroll.shtml">Get help from a representative</a>  </p>
+  </div>
+</div>

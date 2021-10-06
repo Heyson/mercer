@@ -1,0 +1,221 @@
+body {
+	background: white;
+	font-size: 12pt;
+}
+#container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: none !important;
+	color: black;
+	background: transparent none;
+	box-shadow:none;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: none !important;
+	color: black;
+	background: transparent none;
+}
+/***** LINK COLORS AND BEHAVIOR *****/
+a:link, a:visited {
+	color: #000;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.left, .right a:link:after, #content a:visited:after {
+	content: " (" attr(href) ") ";
+	font-size: 90%;
+}
+.left, .right a[href^="/"]:after {
+	content: " (http://www.mercerhrs.com/microsite/oe-guide/" attr(href) ") ";
+}
+#nav {
+	display: none;
+}
+#nav-wrap {display:none;}
+.icon {
+	display: none;
+}
+img {
+	display:none;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#000;
+	margin:0;
+	padding:0;
+}
+.right h1 {
+	color: #000;
+}
+.sidebar-printfg {
+	display:none;
+}
+.callout_bluefg h1 {
+	color:#000;
+}
+
+.left ol li {
+	color: #000;
+	font-size: 100%;
+	font-weight: normal;
+	padding-bottom: 0;
+	margin-left: -15px;
+}
+.left ol li p {
+	color: #000;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 130%;
+}
+.left { /* LEFT COLUMN STYLE */
+	width: 100%;
+
+	float:left;
+	margin: 0;
+	margin-top:0;
+}
+.right { /* SIDEBAR */
+	width: 100%;
+	display: block;
+	float:left;
+	margin: 0;
+}
+.sidebar-yellowfg ul {
+	margin: 0;
+	padding: 5%;
+	padding-bottom: 0%;
+}
+.sidebar-yellowfg h1 {
+	margin: 0;
+	font-size: 100%;
+	padding: 0;
+	padding-top:0;
+	padding-bottom:0;
+}
+.sidebar-greenfg p {
+	padding-bottom: 10px;
+	margin:0;
+	font-size: 100%;
+	padding-left:0;
+}
+.sidebar-greenfg h1 {
+	margin: 0;
+	padding-bottom: 10px;
+	font-size: 100%;
+	padding-left:0;
+}
+.sidebar-greenfg ul {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.sidebar-green *{display:none;}
+.sidebar-green1{display:none;}
+.sidebar-green2{display:none;}
+.sidebar-green3{display:none;}
+.sidebar-green4{display:none;}
+.sidebar-green5{display:none;}
+.sidebar-greenfg img {display:none;}
+.sidebar-green{display:none;}
+.sidebar-green *{display:none;}
+.sidebar-greenfg{ background:#fff; padding: 0; margin: 0; vertical-align: top;}
+
+.content-copy { /* INDENT CONTENT */
+	margin: 0;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.content-copy h2 {
+	margin: 0;
+	padding-bottom:10px;
+}
+.content-copy ul {
+	margin-left: 0;
+}
+.callout ul li { /* YELLOW CALLOUT BULLETS */
+	padding-bottom: 5px;
+	line-height: 140%;
+	font-size: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.content-copy ul li {
+	margin-bottom: 10px;
+	font-size: 100%;
+}
+.sidebar-yellowfg h2 {
+	padding: 0;
+	font-size: 100%;
+}
+
+.sidebar-yellowfg p {
+	padding-bottom: 10px;
+	margin:0;
+	font-size: 100%;
+	padding-left:0px;
+}
+.sidebar-yellowfg img {
+	display:none;
+}
+.legal {display:none;}
+.callout-yellowfg h1 {
+	margin: 0;
+	font-size: 100%;
+	padding: 0;
+}
+.online {
+	float: left;
+	width: 100%;
+	background: none;
+}
+.phone {
+	float: left;
+	width: 100%;
+	background: none;
+	padding-top:20px;
+}
+.phonepadleft {		margin-left: 0;}
+/* HIDE FLEXSLIDER PIECES */
+
+.flex-container a,
+.flexslider a,
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {display: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {display: none;}
+.flexslider {display: none;}
+.flexslider .slides > li {display: none;}
+.flexslider .slides img {display: none;}
+.flex-pauseplay span {display: none;}
+.slides:after {display: none;}
+html[xmlns] .slides {display: none;}
+* html .slides {display: none;}
+.no-js .slides > li:first-child {display: none;}
+.flexslider{display: none;}
+.flexslider .slides {display: none;}
+.flexslider .slides > li {display: none;}
+.flex-container {display: none;}
+.flex-caption {display: none;}
+.flex-caption {display: none;}
+.flex-direction-nav {display: none;}
+.flex-direction-nav a {display: none;}
+.flex-direction-nav .flex-next {display: none;}
+.flex-direction-nav .flex-prev {display: none;}
+.flex-direction-nav .flex-disabled {display: none;}
+.flex-control-nav {display: none;}
+.flex-control-nav li {display: none;}
+.flex-control-nav li:first-child {display: none;}
+.flex-control-nav a {display: none;}
+.flex-control-nav a:hover {display: none;}
+.flex-control-nav a.flex-active {display: none;}
+/* END FLEXSLIDER PIECES */
+

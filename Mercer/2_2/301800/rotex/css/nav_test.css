@@ -1,0 +1,584 @@
+/************************************************************************************
+NAV
+*************************************************************************************/
+#nav-wrap {
+	/*margin-top: 20px;*/
+	width:863px;
+	height:32px;
+	background-color:#0076C0;
+}
+
+/* menu icon */
+#menu-icon {
+	display: none; /* hide menu icon initially */
+}
+
+#nav, 
+#nav li {
+	margin: 0;
+	padding: 0;
+}
+#nav li {
+	list-style: none;
+	float: left;
+	/*margin-right: 5px;*/
+}
+
+/* nav link */
+#nav a {
+	padding: 8px 16px;
+	display: block;
+	color: #FFF;
+	background: #0076C0;
+	text-decoration:none;
+}
+#nav a:hover {
+	background: #4A91C9;
+}
+
+/* nav dropdown */
+#nav ul {
+	background: #fff;
+	padding: 2px;
+	position: absolute;
+	border: solid 1px #ccc;
+	display: none; /* hide dropdown */
+	width: 215px;
+	z-index:100;
+}
+#nav ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+#nav li:hover > ul {
+	display: block; /* show dropdown on hover */
+}
+
+/************************************************************************************
+MOBILE NAV
+*************************************************************************************/
+@media screen and (max-width: 768px) {
+
+	/* nav-wrap */
+	#nav-wrap {
+		position: relative;
+		width:auto;
+		height:auto;
+	}
+
+	/* menu icon */
+	#menu-icon {
+		color: #FFF;
+		
+		height: 19px;
+		background: #0076C0 url(../images/menu-icon.png) no-repeat 10px center;
+		padding: 8px 0px 0 21px;
+		cursor: pointer;
+		border: solid 1px #4A91C9;
+		display: block; /* show menu icon */
+		
+	}
+	#menu-icon:hover {
+		background-color: #4A91C9;
+	}
+	#menu-icon.active {
+		background: #0076C0 url(../images/menu-icon-x.png) no-repeat 10px center;
+		display: block; /* show menu icon */
+	}
+	
+	/* main nav */
+	#nav {
+		clear: both;
+		position: absolute;
+		/*top: 38px;*/
+		width: 220px;
+		z-index: 10000;
+		
+		background: #0076C0;
+		border: solid 1px #FFF;
+		display: none; /* visibility will be toggled with jquery */
+	}
+	#nav li {
+		clear: both;
+		float: none;
+		margin: 5px 0 5px 10px;
+	}
+	#nav a, 
+	#nav ul a {
+		font: inherit;
+		background: none;
+		display: inline;
+		padding: 0;
+		color: #FFF;
+		border: none;
+		text-decoration:none;
+	}
+	#nav a:hover, 
+	#nav ul a:hover {
+		background: #4A91C9;
+		color: #FFF;
+	}
+	
+	/* dropdown */
+	#nav ul {
+		width: auto;
+		position: static;
+		display: block;
+		border: none;
+		background: inherit;
+	}
+	#nav ul li {
+		margin: 3px 0 3px 15px;
+	}
+
+}
+
+@media screen and (min-width: 800px) {
+
+	/* ensure #nav is visible on desktop version */
+	#nav {
+		display: block !important;
+	}
+
+}
+
+
+
+/************************************************************************************
+ORIGINAL STYLE.CSS
+*************************************************************************************/
+
+
+
+.legal {
+	font-size: 85%;
+	width: 100%;
+	padding-left: 20px;
+	clear: both;
+}
+body {
+	font: normal 80% Verdana, Geneva, sans-serif;
+	color: #000;
+	background: #a7a9ac;
+	height: 100%;
+	min-height: 100%;
+	vertical-align: auto;
+}
+#container { /* EVERYTHING INSIDE OF THE WHITE BOX */
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); /* SHADOWS ON THE RIGHT AND LEFT OF WHITE CONTAINER */
+	margin: 0 auto; /* CENTERS */
+	width: 90%; /* WIDTH AT 90% OF THE SCREEN SIZE */
+	max-width: 903px; /* WIDTH LIMIT - WE DON'T WANT CONTAINER TO BE BIGGER THAN ITS DESIGNED WIDTH */
+	text-align: left;
+	height: 100%; /* MAINTAIN FULL HEIGHT */
+}
+#wrapper {/* INNER CONTAINER SETS INSIDE MARGINS/WIDTH */
+	margin: 0 auto; /* CENTERS */
+	width: 95.570321151716500553709856035437%; /* WRAPPER (863px) DIVIDED BY CONTAINER (903px) EQUALS PERCENTAGE WIDTH OF WRAPPER  */ 
+	background-color: #FFF;
+	padding-top: 20px; /* TOPMOST PADDING - CAN BE ADJUSTED IN MEDIA-QUERIES FOR DIFFERENT WINDOW SIZES */
+	display:table; /* MAINTAIN FULL HEIGHT */
+	height: 100%; /* MAINTAIN FULL HEIGHT */
+}
+/***** LINK COLORS AND BEHAVIOR *****/
+a					{
+	color: #0076C0;
+
+}
+
+
+h1 { /* PAGE TITLE */
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 120%;
+	color: #f58421;
+}
+
+h2 { /* subheads */
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;  
+	font-weight: bold
+}
+
+
+h3 { /* subheads */
+	font-weight: bold
+}
+
+img	{ /* SHRINKS IMAGES WITH DEVICE SIZE */
+	max-width: 100%;
+}
+
+imgsidebar {
+	width: 100%;
+	max-width: 100%;
+	float: right;
+}
+p { /* ESTABLISH BASELINE FONT */
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;  
+}
+
+
+.header  { 
+	margin: 0 auto /* CENTERS */
+	width: 100%; /* FULL WIDTH OF WRAPPER */
+}
+
+.callout { /* PADDING BELOW YELLOW CALLOUT */
+	margin-bottom: 20px;
+
+}
+.callout ul li { /* YELLOW CALLOUT BULLETS */
+	padding-bottom: 5px;
+	line-height: 140%;
+	font-size: 85%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/*  GRID COLUMN SETUP */
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+.content-copy { /* INDENT CONTENT */
+	margin-left: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.content-copy h2 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.content-copy ul {
+	margin-left: -25px;
+}
+.content-copy ul li {
+	margin-bottom: 10px;
+}
+#expand h2 {
+	margin-top: 15px;
+	margin-bottom: 8%;
+	padding-top: 2%;
+}
+#expand ul {
+	margin-top: 0px;
+	margin-bottom: 8%;
+	margin-left: 3px;
+	padding-top: 2%;
+}
+#expand img {
+	float: left;
+	width: 10%;
+	max-width: 10%;
+}
+#iconsubhead {
+	display:block;
+}
+ul.enroll_options_links {
+	list-style: none outside none;
+	margin-bottom: 0;
+	margin-top: 0 !important;
+	padding: 0;
+}
+ul.enroll_options_links > li {
+	clear: both;
+}
+ul.enroll_options_links > li > a {
+	display: block;
+	font-size: 100%;
+	font-weight: bold;
+	padding: 2% 0 0 60px;
+	position: relative;
+	z-index: 100;
+}
+ul.enroll_options_links > li > img {
+	float: left;
+	position: relative;
+}
+.checklist li {
+	padding-bottom: 5px;
+}
+.job { /* STYLE THE JOB NUMBER AT THE BOTTOM OF THE PAGE */
+	font-size: 60%;
+	color: #CCC;
+	text-align: right;
+	padding-right: 3%;
+}
+.col { /* LEFT CONTENT COLUMN */
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.left { /* LEFT COLUMN STYLE */
+	width: 65%;
+	display: block;
+	float:left;
+	margin: 2% 0 1% 0%;
+}
+.left ol li {
+	color: #F60;
+	font-size: 140%;
+	font-weight: bold;
+	padding-bottom: 0;
+	margin-left: -15px;
+}
+.left ol li p {
+	color: #000;
+	font-size: 70%;
+	font-weight: normal;
+	line-height: 130%;
+}
+.left p ,.left li{
+	line-height: 130%;
+	font-size: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.online {
+	float: left;
+	width: 50%;
+	background: url(../images/mouse_nobkgd.jpg) no-repeat right top;
+}
+.phone {
+	float: left;
+	width: 50%;
+	background: url(../images/smartphone_nobkgd.jpg) no-repeat right top;
+}
+.phonepadleft {		margin-left: 10%;}
+
+
+/*  GRID OF TWO  */
+.right { /* SIDEBAR */
+	width: 32%;
+	display: block;
+	float:left;
+	margin: 2% 0 0 3%;
+	line-height: 120%;
+}
+.right h1 { color: #0076c0;}
+
+/* Rounded corners style on yellow sidebar FROM SPIFFYCORNERS.COM */
+.sidebar-yellow{display:block}
+.sidebar-yellow *{ display:block;  height:1px;  overflow:hidden;  font-size:.01em;  background:#ffe6c3}
+.sidebar-yellow1{ margin:0 3px;  padding:0 1px; border-left:1px solid #fff4e5;  border-right:1px solid #fff4e5;  background:#ffecd2}
+.sidebar-yellow2{ margin:0 1px;  padding:0 1px; border-left:1px solid #fffcf9;  border-right:1px solid #fffcf9;  background:#ffeace}
+.sidebar-yellow3{ margin:0 1px;  border-left:1px solid #ffeace;  border-right:1px solid #ffeace;} 
+.sidebar-yellow4{ border-left:1px solid #fff4e5;  border-right:1px solid #fff4e5}
+.sidebar-yellow5{ border-left:1px solid #ffecd2;  border-right:1px solid #ffecd2}
+.sidebar-yellowfg{
+	background:#ffe6c3;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+.sidebar-yellowfg ul {
+	margin-bottom: 0;
+	margin-top: 2%;
+	margin-left: -4%;
+	padding-right: 5%;
+	padding-bottom: 0%;
+}
+.sidebar-yellowfg h1 {
+	margin: 0;
+	font-size: 90%;
+	padding: 4% 5% 1% 6%;
+}
+.sidebar-yellowfg h2 {
+	padding: 2% 5% 1% 6%;
+	font-size: 85%;
+}
+
+.sidebar-yellowfg p {
+	padding: 0 7% 3% 6%;
+	margin:0;
+	font-size: 85%;
+}
+.sidebar-yellowfg img {
+	float: right;
+	/* width: 18%; */
+	padding-bottom: 2%;
+	padding-left: 2%;
+	margin-right: 10px;
+}
+.bottom {padding-bottom: 10px;}
+
+/* Rounded corners style on green sidebar FROM SPIFFYCORNERS.COM */
+.sidebar-green{display:block}
+.sidebar-green *{display:block;  height:1px;  overflow:hidden;  font-size:.01em;  background:#cee2bc}
+.sidebar-green1{ margin:0 3px;  padding:0 1px;  border-left:1px solid #e9f2e2;  border-right:1px solid #e9f2e2;  background:#dae9cc}
+.sidebar-green2{ margin:0 1px;  padding:0 1px;  border-left:1px solid #fafcf8;  border-right:1px solid #fafcf8;  background:#d7e7c8}
+.sidebar-green3{ margin:0 1px;  border-left:1px solid #d7e7c8;  border-right:1px solid #d7e7c8;}
+.sidebar-green4{ border-left:1px solid #e9f2e2; border-right:1px solid #e9f2e2}
+.sidebar-green5{ border-left:1px solid #dae9cc; border-right:1px solid #dae9cc}
+.sidebar-greenfg{ background:#cee2bc; padding: 0; margin: 0; vertical-align: top;}
+.sidebar-greenfg p {
+	padding: 0 7% 5% 6%;
+	margin:0;
+	font-size: 85%;
+}
+.sidebar-greenfg h1 {
+	margin: 0;
+	padding: 4% 5% 3% 6%;
+	font-size: 90%;
+}
+.sidebar-greenfg ul {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.sidebar-greenfg img {
+	float: right;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	margin-right: 10px;
+}
+
+
+
+
+
+/* Rounded corners style on green PRINT sidebar FROM SPIFFYCORNERS.COM */
+.sidebar-print{display:block}
+.sidebar-print *{display:block;  height:1px;  overflow:hidden;  font-size:.01em;  background:#cee2bc}
+.sidebar-print1{ margin:0 3px;  padding:0 1px;  border-left:1px solid #e9f2e2;  border-right:1px solid #e9f2e2;  background:#dae9cc}
+.sidebar-print2{ margin:0 1px;  padding:0 1px;  border-left:1px solid #fafcf8;  border-right:1px solid #fafcf8;  background:#d7e7c8}
+.sidebar-print3{ margin:0 1px;  border-left:1px solid #d7e7c8;  border-right:1px solid #d7e7c8;}
+.sidebar-print4{ border-left:1px solid #e9f2e2; border-right:1px solid #e9f2e2}
+.sidebar-print5{ border-left:1px solid #dae9cc; border-right:1px solid #dae9cc}
+.sidebar-printfg{ background:#cee2bc; padding: 0; margin: 0; vertical-align: top;}
+.sidebar-printfg p {
+	padding: 0 7% 5% 6%;
+	margin:0;
+	font-size: 85%;
+}
+.sidebar-printfg h1 {
+	margin: 0;
+	padding: 4% 5% 3% 6%;
+	font-size: 90%;
+}
+.sidebar-printfg ul {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.sidebar-printfg img {
+	float: right;
+	padding-left: 2%;
+	margin-right: 10px;
+}
+.sidebar-print img {
+	float: right;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	margin-right: 10px;
+}
+
+/* Rounded corners style on callout_blue FROM SPIFFYCORNERS.COM */
+.callout_blue{display:block}
+.callout_blue *{display:block;  height:1px;  overflow:hidden;  font-size:.01em;  background:#b2d6ec;}
+.callout_blue1{ margin:0 3px;  padding:0 1px;  border-left:1px solid #b2d6ec;  border-right:1px solid #b2d6ec;  background:#b2d6ec;}
+.callout_blue2{ margin:0 1px;  padding:0 1px;  border-left:1px solid #b2d6ec;  border-right:1px solid #b2d6ec;  background:#b2d6ec;}
+.callout_blue3{ margin:0 1px;  border-left:1px solid #b2d6ec;  border-right:1px solid #b2d6ec;}
+.callout_blue4{ border-left:1px solid #b2d6ec; border-right:1px solid #b2d6ec;}
+.callout_blue5{ border-left:1px solid #b2d6ec; border-right:1px solid #b2d6ec;}
+.callout_bluefg{
+	background:#b2d6ec;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.callout_bluefg p {
+	padding: 0 7% 0% 6%;
+	margin:0;
+	font-size: 85%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.callout_bluefg h1 {
+	margin: 0;
+	padding: 4% 5% 1% 6%;
+	font-size: 90%;
+	color: #0076c0;
+}
+
+.callout_bluefg ul {
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 4% 9% 2% 8%;
+	margin-bottom: 0;
+}
+
+#note {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 70%;
+	color: #666;
+}
+
+
+/* TABLE STLYES */
+.table {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 85%;
+	line-height: 120%x;
+	color: #000;
+	border-collapse: collapse;
+}
+.contacts p {
+	padding-left: 20px;
+}
+
+.table_title_row {
+	background-color: #b2d6ec;
+	border-color: #000;
+	border-width: 1px;
+	border-style:solid;
+}
+
+.table_row_head {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 85%;
+	line-height: 115%;
+	font-weight: bold;
+	color: #0076c0;
+	text-align: left;
+	vertical-align: bottom;
+	padding: 1%;
+	border-color: #FFF;
+	border-width: 1px;
+	border-style:solid;
+}
+
+.table_data {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 85%;
+	color: #000;
+	line-height: 130%;
+	text-align: left;
+	padding: 0%;
+	border-color: #FFF;
+	border-width: 1px;
+	border-style:solid;
+}
+
+.Table_row_odd {
+	background-color: #e7f5fe;
+}
+
+.Table_row_even {
+	background-color: #d5edfc;
+}
+.sub-bullets li {
+	margin-left: -17px;
+}
+.sub-bullets2 li {
+	margin-left: -10px;
+}
+.sub-bullets3 li {
+	margin-left: -26px;
+}
+.sub-bullets4 li {
+	margin-left: 16px;
+}
+

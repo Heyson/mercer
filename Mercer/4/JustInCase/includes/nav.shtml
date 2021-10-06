@@ -1,0 +1,38 @@
+<!-- HEADER >> MAIN NAVIGATION-->
+ <div class="navbar-collapse nav-main-collapse collapse">
+      <div class="container">
+        <nav class="nav-main mega-menu">
+          <ul class="nav nav-pills nav-main" id="mainMenu">
+            <li class="active-home"> <a href="index.shtml">Home</a>
+            <li class="active-new"> <a class="dropdown-toggle" href="new.shtml"> New for 2016 </a></li>
+            <li class="dropdown active-ben"> <a class="dropdown-toggle" href="ben_options.shtml"> Benefit options <i class="fa fa-angle-down"></i> </a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu"> <a class="dropdown-toggle" href="ben_options_medical.shtml">Medical</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="ben_options_medical_cdhp_with_hsa.shtml">CDHP with HSA</a></li>
+                    <li><a href="ben_options_medical_ppo_plan.shtml">PPO plan</a></li>
+                    <li><a href="ben_options_medical_epo_plan.shtml">EPO plan</a></li>
+                  </ul>
+                </li>
+                <li><a href="ben_options_dental.shtml">Dental</a></li>
+                <li><a href="ben_options_vision.shtml">Vision</a></li>
+                <li><a href="ben_options_saving_spending.shtml">Saving/spending accounts</a></li>
+                <li><a href="ben_options_insurance.shtml">Life and other insurance</a></li>
+                <li><a href="ben_options_wellness.shtml">Wellness resources</a></li>
+              </ul>
+            </li>
+            <li class="dropdown active-tools"> <a class="dropdown-toggle" href="tools_resources.shtml"> Tools &amp; resources <i class="fa fa-angle-down"></i> </a>
+              <ul class="dropdown-menu">
+                <li><a href="tools_resources_tools.shtml">Tools</a></li>
+                <li><a href="tools_resources_contacts.shtml">Contacts</a></li>
+                <li><a href="tools_resources_summary.shtml">Summaries of Benefits and Coverage</a></li>
+                <li><a href="tools_resources_eligibility.shtml">Eligibility</a></li>
+                <li><a href="tools_resources_legal.shtml">Legal notices</a></li>
+                <li><a href="tools_resources_glossary.shtml">Glossary</a></li>
+              </ul>
+            </li>
+            <li class="active-enroll"> <a class="dropdown-toggle active-enroll"  href="enroll.shtml"> Enroll <!-- <i class="fa fa-angle-down"></i> --> </a></li> 
+            </li>
+          </ul>
+        </nav>
+<!-- END HEADER >> MAIN NAVIGATION-->

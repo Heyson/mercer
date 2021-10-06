@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Myth Busters</title>
+<!--<link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>-->
+<style>
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	}
+	
+div#main {background: transparent url('i/mythbusters-001-BG.jpg') no-repeat top center; width:880px; height:460px;padding:30px; overflow:hidden; margin:0 auto; text-align: center;}
+
+div#main h1 { margin-top:0;}
+
+#left { width:247px;float:left; text-align:left; clear:left;}
+#left2 { width:550px; height:30px;float:left; text-align:left; clear:left;}
+
+#left p { font: normal normal normal 14px/18px Arial, Helvetica, sans-serif;}
+
+#right {width:602px; float:right;top:180px;height:199px; position:relative; padding-top:}
+
+h2#questions { color:#F9FD8C; text-align:right; font-family: Arial, Helvetica, sans-serif;}
+
+/*TRUE-FALSE BUTTON*/
+#bTrue,#bFalse { float:right; margin-left:50px; }
+#bTrue { margin-right:50px;width:153px !important;height:71px !important;background: url('i/bTrue.png') no-repeat top left; }
+#bTrue:hover { background: url('i/bTrue-hov.png') no-repeat;}
+#bFalse { margin-right:50px;width:153px !important;height:71px !important;background: url('i/bFalse.png') no-repeat top left; }
+#bFalse:hover { background: url('i/bFalse-hov.png') no-repeat;}
+/*TRUE-FALSE BUTTON*/
+
+#true-false { width:228px; height:120px; z-index:100;position:absolute;}
+
+#nextS {position:absolute; bottom:0; text-align:right; right:0;padding-right:20px; color:#F9FD8C ;text-decoration:underline; cursor: pointer; }
+
+#questions a { color:#F9FD8C; text-decoration:underline; }
+
+#answerContainer a { color:#F9FD8C; text-decoration:underline;  }
+
+</style>
+<script>
+var first = getUrlVars()["u"];
+var second = getUrlVars()["ad"];
+var third = getUrlVars()["d"];
+//TRACKING EXIT - YOU WILL NEED TO CHANGE TEXT AND THE LINK HERE//
+var final = "<p>Thank you for participating, <a href='http://google.com/?u=" + first + "&ad=" + second + "&d=" + third + "'>click here to receive credit</a>";
+ 
+//alert(first);
+//alert(second);
+//alert(third);
+
+
+function getUrlVars() {
+    	var vars = {};
+    	var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    	});
+   	return vars;
+}
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+    });
+}
+
+// Usage:
+
+preload([
+    'i/bTrue-hov.png',
+    'i/bFalse-hov.png'
+]);
+	
+var tf = ["i/true.png","i/true.png","i/false.png","i/true.png","i/true.png"];
+
+var questions = ["Extra Space puts money in your HSA.","Your HSA is automatically set up for you.","Any money left in my HSA at the end of the calendar year will be lost.","Contributions to your HSA are tax-free.","The annual deductible also accumulates towards the out-of-pocket maximum."];
+
+var answers = ["<p><strong>True.</strong></p><p>Extra Space will deposit money into your Health Savings Account (HSA) on your behalf as long as you are actively employed by Extra Space and eligible for an HSA you may receive up to $480 per person/$720 per family, depending how much of your own money you decide to contribute—it’s your choice; annual max $3,350 per person/$ 6,650 per family or more if you’re over age 55.</p>","<p><strong>True.</strong></p><p>Extra Space will open an account with Health Equity where the contributions from Extra Space and your elected contributions will be deposited. </p>","<p><strong>False.</strong></p><p>Money in your HSA rolls over from year to year – and is yours to keep even if you leave Extra Space for any reason.</p>","<p><strong>True.</strong></p><p>: Contributions are made tax-free, grow tax-free AND can be withdrawn tax-free when used for qualified medical expenses (except in certain states, including CA).</p>","<p><strong>True.</strong></p><p>: Any expenses that count towards meeting your deductible also count toward meeting your out-of-pocket maximum.  Once your deductible is met, in-network covered expenses are paid at 80%. Once your out-of-pocket maximum is met, covered expenses are paid at 100%. The out-of-pocket maximum for all Extra Space Storage plans is $3,500 for individual coverage and $7,000 for family coverage.</p>"];
+
+	
+$('#bTrue,#bFalse').css( 'cursor', 'pointer' );
+
+	var z = 0;
+	
+	function checkZ(){
+		if (z>=questions.length){
+			z = 0;
+			$('#bTrue,#bFalse').fadeIn();
+			//alert(z);
+		}else{
+			$('#bTrue,#bFalse').fadeIn();
+			//alert(z);
+		}
+	}
+	
+	$('#questions').html(questions[z]);
+	$('#bTrue,#bFalse').bind('click',function(e){
+    		e.preventDefault();
+   			$(this).prop('disabled', true); // DISABLE
+			$('#bTrue,#bFalse').fadeOut(1, function(){
+			// Animation complete
+				$('#right').animate({top:0}, 800, function() {
+				$('#bTrue,#bFalse').prop('disable', false); // ENABLE after container fades out
+					//callback
+					$('#true-false').css('background-image', 'url(' + tf[z] + ')');
+					$('#true-false').fadeIn();
+					$('#answerContainer').html("&nbsp;");
+					$('#answerContainer').fadeIn(800, function() {
+						//callback
+						$('#answerContainer').html(answers[z] + "<p id='nextS'>NEXT STATEMENT</p>");
+						//NEXT STATEMENT CLICK
+						$('#nextS').one("click", function() {
+    							$('#nextS').prop('disabled', true); // DISABLE
+							z++;
+							$('#true-false').fadeOut(1);
+							$('#answerContainer').fadeOut(1, function(){
+								//callback
+								$('#right').animate({top:175}, 800, function(){
+									checkZ();
+									$('#questions').html(questions[z]);												});
+				        });
+					});
+					//$('#nextS').prop('disable', false); // ENABLE after container fades out
+    				$('#bTrue,#bFalse').prop('disabled', false); // DISABLE
+				});
+			});
+		});
+	});
+});
+</script>
+</head>
+
+<body>
+<div id="main">
+<div id="left2"><h1>Extra Space Storage HSA Quiz</h1>  </div>
+	<div id="left">
+    		 
+		<p>Fact or fiction?</p> 
+		<p>A Health Savings Account (HSA)<br> is a great way to save for your health-related expenses. Test your HSA knowledge to be sure you are ready to take full advantage of the benefits this account provides.</p>
+	</div>
+    <div id="right">
+        <div id="true-false" style="display:none;">&nbsp;</div>
+        <h2 id="questions"></h2>
+            <div>&nbsp;</div>
+            <div id="bFalse">&nbsp;</div>
+            <div id="bTrue">&nbsp;</div>
+    </div>
+    <br clear="all" />
+	<div style="top:175px;position:absolute;z-index:100;background: transparent url(i/answersBG.png) no-repeat top right;width:565px;height:254px;margin-left:250px;text-align:left;padding:20px;display:none;" id="answerContainer">
+	</div>
+</div>
+</body>
+</html>

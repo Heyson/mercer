@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--******************************************************************************************************************************************************************
+	BASIC
+********************************************************************************************************************************************************************-->
+<meta charset="utf-8">
+<title>ACME - 2015 Health and Benefits Enrollment</title>
+<meta name="description" content="ACME - 2015 Health and Benefits Enrollment">
+
+<!--******************************************************************************************************************************************************************
+	MOBILE METAS
+********************************************************************************************************************************************************************-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--******************************************************************************************************************************************************************
+	WEB FONTS
+********************************************************************************************************************************************************************-->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+<!--******************************************************************************************************************************************************************
+	VENDOR CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
+<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css">
+<link href="vendor/owlcarousel/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" href="vendor/owlcarousel/owl.theme.css" media="screen">
+<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
+
+<!--******************************************************************************************************************************************************************
+	THEME CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/theme-elements.css">
+<link rel="stylesheet" href="css/theme-blog.css">
+<link rel="stylesheet" href="css/theme-shop.css">
+<link rel="stylesheet" href="css/theme-animate.css">
+
+<!--******************************************************************************************************************************************************************
+	SEARCH CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<!--******************************************************************************************************************************************************************
+	CURRENT PAGE CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
+<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+<!--******************************************************************************************************************************************************************
+	SKIN CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="css/skins/default.css">
+
+<!--******************************************************************************************************************************************************************
+  FANCYBOX CSS
+********************************************************************************************************************************************************************-->
+
+ <link rel="stylesheet" href="fancybox/jquery.fancybox.css"/>
+
+
+
+<!--******************************************************************************************************************************************************************
+	THEME CUSTOM CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="css/custom.css">
+
+
+
+<!--******************************************************************************************************************************************************************
+	HEAD LIBS
+********************************************************************************************************************************************************************-->
+<script src="vendor/modernizr/modernizr.js"></script>
+
+<!--[if IE]>
+			<link rel="stylesheet" href="css/ie.css">
+		<![endif]-->
+
+<!--[if lte IE 8]>
+			<script src="vendor/respond/respond.js"></script>
+			<script src="vendor/excanvas/excanvas.js"></script>
+		<![endif]-->
+
+</head>
+<body>
+
+<!--******************************************************************************************************************************************************************
+  HEADER
+********************************************************************************************************************************************************************-->
+    <!--#include file="includes/header.shtml" --> 
+
+<!--******************************************************************************************************************************************************************
+  NAVIGATION
+********************************************************************************************************************************************************************-->
+    <!--#include file="includes/nav.shtml" --> 
+
+<!--******************************************************************************************************************************************************************
+  SEARCH
+********************************************************************************************************************************************************************-->
+    <!--#include file="includes/search.shtml" --> 
+
+<!--******************************************************************************************************************************************************************
+	SLIDE OUT FUNCTIONALITY
+********************************************************************************************************************************************************************-->
+<!--#include file="includes/slideout-func.shtml" --> 
+
+<!--******************************************************************************************************************************************************************
+	BODY
+********************************************************************************************************************************************************************-->
+<div class="body">
+
+  <div class="home-concept">
+    <div class="container">
+      <div class="welcome">
+        <h1>WELCOME TO OPEN ENROLLMENT</h1>
+        <p>Take these steps!</p>
+      </div>
+      <div class="row center"> 
+        <div class="col-md-2 col-md-offset-2">
+          <div class="process-image" data-appear-animation="bounceIn"> <a href="new.shtml"><img src="img/lightbulb.png" alt="" /> <strong>See what’s <br>NEW FOR 2016</strong></a> </div>
+        </div>
+        <div class="col-md-2">
+          <div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="200"> <a href="ben_options.shtml"> <img src="img/signposts.png" alt="" /><strong>Browse your BENEFIT OPTIONS</strong> </a> </div>
+        </div>
+        <div class="col-md-2">
+          <div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="400"><a href="tools_resources.shtml"><img class="suitcase" src="img/suitcase3.png" alt="" />  <strong>Use helpful <br>TOOLS & RESOURCES</strong></a> </div>
+        </div>
+        <div class="col-md-2">
+          <div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="400"> <a href="enroll.shtml"><img src="img/mappoint.png" alt="" /> <strong>Decide and <br> ENROLL</strong></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="home-intro" id="home-intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8"> </div>
+        <div class="col-md-4">
+          <div class="get-started"> <a href="new.shtml" class="btn btn-lg btn-primary">Get Started!</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="featured">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 top-five-box">
+        <h2>TOP 5 QUESTIONS</h2>
+        <span class="top-five">employees ask during Open Enrollment</span> <br>
+        <br>
+        <div class="row">
+          <div class="owl-carousel push-bottom" data-plugin-options='{"items": 1, "autoHeight": false}'>
+            <div>
+              <div class="col-md-5">
+                <blockquote class="testimonial question-box">
+                  <p><span class="q">Q</span>: Am I paying for too much coverage?</p>
+                </blockquote>
+                <div class="testimonial-arrow-down question"></div>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <blockquote class="testimonial">
+                  <p><span class="a">A</span>: Possibly. Many employees who enrolled in the PPO or EPO could have saved
+                    money by enrolling in the CDHP (such as the 25% of participants who had less than
+                    $500 in claims last year). Find out how you can avoid paying for too much medical
+                    coverage. <br>
+                    <a class="fancybox fancybox.iframe" href="popup_top_five_question1.shtml">See full answer &raquo;</a></p>
+                </blockquote>
+                <div class="testimonial-arrow-down answer"></div>
+                <br>
+              </div>
+            </div>
+            <div>
+              <div class="col-md-5">
+                <blockquote class="testimonial question-box">
+                  <p><span class="q">Q</span>: Do I need to enroll? What happens if I don’t?</p>
+                </blockquote>
+                <div class="testimonial-arrow-down question"></div>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <blockquote class="testimonial">
+                  <p><span class="a">A</span>: You need to take action this Open Enrollment (Date through Date) if: [insert client-specific details]. If you do not enroll, you will receive default coverage for 2016.<br>
+                  <a class="fancybox fancybox.iframe" href="popup_top_five_question2.shtml">See full answer &raquo;</a></p>
+                </blockquote>
+                <div class="testimonial-arrow-down answer"></div>
+              </div>
+            </div>
+            <div>
+              <div class="col-md-5">
+                <blockquote class="testimonial question-box">
+                  <p><span class="q">Q</span>: How can I save money on my health coverage? </p>
+                </blockquote>
+                <div class="testimonial-arrow-down question"></div>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <blockquote class="testimonial">
+                  <p><span class="a">A</span>: Here are seven tips to help you and your family be healthy and save money at the same time.  <br>
+                  <a class="fancybox fancybox.iframe" href="popup_top_five_question3.shtml">See full answer &raquo;</a></p>
+                </blockquote>
+                <div class="testimonial-arrow-down answer"></div>
+                <br>
+              </div>
+            </div>
+            <div>
+              <div class="col-md-5">
+                <blockquote class="testimonial question-box">
+                  <p><span class="q">Q</span>: What’s the difference between the Health Care Flexible Spending Account (FSA) and the Health Savings Account (HSA)? </p>
+                </blockquote>
+                <div class="testimonial-arrow-down question"></div>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <blockquote class="testimonial">
+                  <p><span class="a">A</span>: The way the Health Care FSA and the HSA work is largely the same — you contribute money to your account through automatic, before-tax payroll deductions, then use these tax-free dollars to pay for eligible health care expenses. However, there are some important differences. <br>
+                  <a class="fancybox fancybox.iframe" href="popup_top_five_question4.shtml">See full answer &raquo;</a></p>
+                </blockquote>
+                <div class="testimonial-arrow-down answer"></div>
+                <br>
+              </div>
+            </div>
+            <div>
+              <div class="col-md-5">
+                <blockquote class="testimonial question-box">
+                  <p><span class="q">Q</span>: What should I consider before choosing coverage? </p>
+                </blockquote>
+                <div class="testimonial-arrow-down question"></div>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <blockquote class="testimonial">
+                  <p><span class="a">A</span>: Give some thought to these questions before you enroll: 
+                  How much health care — and what type of care — did you and your dependents need in 2015?
+                  Will your needs be similar in 2016? Do you foresee changes?<br>
+
+                  <a class="fancybox fancybox.iframe" href="popup_top_five_question5.shtml">See full answer &raquo;</a></p>
+                </blockquote>
+                <div class="testimonial-arrow-down answer"></div>
+                <br>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="home-box">
+          <div class="home-box-header">Back to Basics</div>
+          <div class="owl-carousel" data-plugin-options='{"items": 1, "autoHeight": false}'>
+            <div>
+              <p>Remember, you pay for health care in TWO ways...</p>
+            </div>
+            <div>
+              <p><img src="img/basics_1.png">First, through a fixed amount that you contribute from each paycheck. These are called <strong><em>premiums</em></strong>.</p>
+            </div>
+            <div>
+              <p><img src="img/basics_2.png">Then through the costs you pay as you receive care throughout the year. These might include <strong><em>copays</em></strong>, <strong><em>deductibles</em></strong>, and <strong><em>coinsurance</em></strong>, depending on the medical plan you choose.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="home-box">
+          <div class="home-box-header">Glossary</div>
+          <div class="glossary-1">
+          
+          <span class="word-rotate" data-plugin-options='{"delay": 2000}'>
+										<span class="word-rotate-items">
+											<span> Flexible Spending Account</span>
+											<span >Dependent Care (FSA)</span>
+											<span >Health Care Flexible Spending Account (FSA)</span>
+										</span>
+									</span>
+          
+         
+          
+          </div>
+          
+          <div class="glossary-2">
+          
+           <span class="word-rotate" data-plugin-options='{"delay": 6000}'>
+										<span class="word-rotate-items">
+											<span> Coinsurance</span>
+											<span>Health Savings Account (HSA)</span>
+											<span>Limited Purpose Flexible Spending Account (LPFSA)</span>
+										</span>
+									</span>
+          
+          
+          
+          </div>
+         
+          <div class="glossary-3">
+          
+         <span class="word-rotate" data-plugin-options='{"delay": 3000}'>
+										<span class="word-rotate-items">
+											<span> Deductible</span>
+											<span>Out-of-pocket maximum</span>
+											<span>Premiums</span>
+                                            <span>Preventive care</span>
+										</span>
+									</span> 
+          
+          
+          </div>
+          
+          
+          
+          
+          <div class="definitions"> <a href="tools_resources_glossary.shtml" class="btn btn-primary">Get the definitions</a></div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+   
+</section>
+<!--******************************************************************************************************************************************************************
+  FOOTER
+********************************************************************************************************************************************************************-->
+  <!--#include file="includes/footer.shtml" --> 
+
+</div>
+
+
+<!--******************************************************************************************************************************************************************
+	JS
+********************************************************************************************************************************************************************-->
+<script src="vendor/jquery/jquery.js"></script> 
+<script src="vendor/jquery.appear/jquery.appear.js"></script> 
+<script src="vendor/jquery.easing/jquery.easing.js"></script> 
+<script src="vendor/jquery-cookie/jquery-cookie.js"></script> 
+<script src="vendor/bootstrap/bootstrap.js"></script> 
+<script src="vendor/common/common.js"></script> 
+<script src="vendor/jquery.validation/jquery.validation.js"></script> 
+<script src="vendor/jquery.stellar/jquery.stellar.js"></script> 
+<script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script> 
+<script src="vendor/jquery.gmap/jquery.gmap.js"></script> 
+<script src="vendor/twitterjs/twitter.js"></script> 
+<script src="vendor/isotope/jquery.isotope.js"></script> 
+<script src="vendor/owlcarousel/owl.carousel.js"></script> 
+<script src="vendor/jflickrfeed/jflickrfeed.js"></script> 
+<script src="vendor/magnific-popup/jquery.magnific-popup.js"></script> 
+<script src="vendor/vide/vide.js"></script> 
+
+
+<!-- Theme Base, Components and Settings --> 
+<script src="js/theme.js"></script> 
+
+
+<!-- Specific Page Vendor and Views --> 
+<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script> 
+<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
+<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script> 
+<script src="js/views/view.home.js"></script> 
+
+
+
+<!-- Theme Custom --> 
+<script src="js/custom.js"></script> 
+
+
+<!-- Theme Initialization Files --> 
+<script src="js/theme.init.js"></script> 
+
+<!-- Fancybox --> 
+<script src="fancybox/jquery.fancybox.js"></script>
+<script src="fancybox/main.js"></script>
+
+
+
+<!-- Google Analytics -->
+
+
+<!-- LEARN MORE SLIDE OUT FUNCTIONALITY --> 
+<script src="js/jquery-ui-1.10.4.custom.js"></script> 
+<script>
+  $("#share").click(function(){
+  $("#share").toggle("slide",{direction: 'left'});
+  $("#shareExpandedModal").delay( 400 ).toggle("slide",{direction: 'left'});
+  });
+
+  $("#shareExpandedModal").mouseleave(function(){
+  $("#shareExpandedModal").toggle("slide",{direction: 'left'});
+  $("#share").delay( 400 ).toggle("slide",{direction: 'left'});
+  });
+</script> 
+<!-- / LEARN MORE SLIDE OUT FUNCTIONALITY -->
+
+<!-- ADD ACTIVE CLASS TO NAV --> 
+<script>
+$(document).ready(function () {
+        $('.active-home').addClass('active');
+    });
+</script>
+<!--/ ADD ACTIVE CLASS TO NAV --> 
+
+</body>
+</html>

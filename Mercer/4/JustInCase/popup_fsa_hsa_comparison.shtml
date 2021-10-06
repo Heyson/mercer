@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--******************************************************************************************************************************************************************
+	BASIC
+**********************************************************************************************************-->
+<meta charset="utf-8">
+<title>ACME - 2015 Health and Benefits Enrollment</title>
+<meta name="description" content="ACME - 2015 Health and Benefits Enrollment">
+
+<!--******************************************************************************************************************************************************************
+	MOBILE METAS
+********************************************************************************************************************************************************************-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--******************************************************************************************************************************************************************
+	WEB FONTS
+********************************************************************************************************************************************************************-->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+<!--******************************************************************************************************************************************************************
+	VENDOR CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
+<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css">
+<!-- <link href="vendor/owlcarousel/owl.carousel.css" rel="stylesheet" media="screen">
+ -->
+<!--  <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.css" media="screen">
+ --><!-- <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
+ -->
+<!--******************************************************************************************************************************************************************
+	THEME CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/theme-elements.css">
+<link rel="stylesheet" href="css/theme-blog.css">
+<link rel="stylesheet" href="css/theme-shop.css">
+<link rel="stylesheet" href="css/theme-animate.css">
+
+<!--******************************************************************************************************************************************************************
+	SEARCH CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet"  href="tipuesearch/tipuesearch.css">
+
+<!--******************************************************************************************************************************************************************
+	CURRENT PAGE CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
+<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+<!--******************************************************************************************************************************************************************
+	SKIN CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="css/skins/default.css">
+
+<!--******************************************************************************************************************************************************************
+  FANCYBOX CSS
+********************************************************************************************************************************************************************-->
+
+ <link rel="stylesheet" href="fancybox/jquery.fancybox.css"/>
+
+<!--******************************************************************************************************************************************************************
+	THEME CUSTOM CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="css/custom.css">
+
+<!--******************************************************************************************************************************************************************
+	HEAD LIBS
+********************************************************************************************************************************************************************-->
+<script src="vendor/modernizr/modernizr.js"></script>
+
+<!--[if IE]>
+			<link rel="stylesheet" href="css/ie.css">
+		<![endif]-->
+
+<!--[if lte IE 8]>
+			<script src="vendor/respond/respond.js"></script>
+			<script src="vendor/excanvas/excanvas.js"></script>
+		<![endif]-->
+
+</head>
+<body>
+
+
+
+<!--******************************************************************************************************************************************************************
+	BODY
+********************************************************************************************************************************************************************-->
+<div class="body">
+<div role="main" class="main">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      <h3>HOW IS THE HEALTH CARE FLEXIBLE SPENDING ACCOUNT (FSA) DIFFERENT FROM THE HEALTH SAVINGS ACCOUNT (HSA)?</h3>
+           
+        <table class="table table-striped table-bordered ">
+            <tr>
+              <th></th>
+              <th>HSA</th>
+              <th>Health Care FSA </th>
+             </tr>
+
+            <tr>
+              <td><strong>Who can participate?*</strong></td>
+              <td>Employees who are enrolled in the [CDHP] </td>
+              <td>Employees who are not enrolled in the HSA </td>
+            </tr>
+
+            <tr>
+              <td><strong>What happens to unused contributions?</strong></td>
+              <td>They remain in your account for future health care expenses </td>
+              <td>[If no carryover: They are subject to the “use it or lose it” rule; you forfeit them in accordance with the deadlines for reimbursement outlined below] [If carryover: Up to $500 of unused contributions can be rolled over to the next year, but must be used by [date]. Additional contributions remaining at year-end will be forfeited.]</td>
+            </tr>
+
+            <tr>
+              <td><strong>How are contributions made?</strong></td>
+              <td colspan="2">Deducted from each paycheck on a before-tax basis  </td>
+             
+            </tr>
+
+            <tr>
+              <td><strong>How much can you contribute in 2016?</strong></td>
+              <td>
+                <ul>
+                  <li>Individual coverage: [$3,350]</li>
+                  <li>Family coverage: [$6,650]</li>
+                  <li>If you are 55 or older, you can deposit up to an additional [$1,000]</li>
+                </ul>
+              </td>
+              <td>From [$260] to [$2,550] </td>
+            </tr>
+
+            <tr>
+              <td><strong>Can you change your contribution amount outside of Open Enrollment?</strong></td>
+              <td>Yes, you can change your contribution amount or stop contributing at any time</td>         
+              <td>Only if you experience a qualifying life event, such as a birth, marriage, or change in employment status </td>
+            </tr>
+
+            <tr>
+              <td><strong>What expenses are eligible?</strong></td>
+              <td colspan="2">
+                <ul>
+                  <li>Deductibles, coinsurance, and copayments for medical, dental, and vision care</li>
+                  <li>Prescription drugs</li>
+                  <li>Eye exams, glasses, contact lenses and solution, and sunglasses when prescribed for a medical condition</li>
+                  <li>Hearing exams and hearing aids</li>
+                  <li>Lasik surgery</li>
+                  <li>Adult orthodontia</li>
+                  <li>And more — for a complete list, refer to IRS Publication 502, available at <a href="http://www.irs.gov" target="_blank">www.irs.gov</a>.</li>
+
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><strong>What are the deadlines for reimbursement?</strong></td>
+              <td>None</td>         
+              <td>
+                  <ul>
+                    <li>[Eligible expenses must be incurred by December 31, 2016]</li>
+                    <li>[Claims must be submitted by April 30, 2017]</li>
+                    <li>[You forfeit any remaining balance after April 30, 2017]</li>
+                  </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><strong>Who administers this benefit?</strong></td>
+              <td>[HSA administrator]</td>         
+              <td>FSA administrator] </td>
+            </tr>
+
+            
+          </table>
+
+          <p><small>*Keep in mind you cannot have a Health Care FSA and HSA at the same time (this is tax law). If you plan on enrolling in the CDHP for 2016, be sure to spend down and get reimbursed for all 2015 expenses from your FSA by December 31, 2015. </small></p>
+    
+      </div>
+    
+            
+           
+           
+
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+<!--******************************************************************************************************************************************************************
+	JS
+********************************************************************************************************************************************************************-->
+<script src="vendor/jquery/jquery.js"></script> 
+<script src="vendor/jquery.appear/jquery.appear.js"></script> 
+<script src="vendor/jquery.easing/jquery.easing.js"></script> 
+<script src="vendor/jquery-cookie/jquery-cookie.js"></script> 
+<script src="vendor/bootstrap/bootstrap.js"></script> 
+<script src="vendor/common/common.js"></script> 
+<script src="vendor/jquery.validation/jquery.validation.js"></script> 
+<script src="vendor/jquery.stellar/jquery.stellar.js"></script> 
+<!-- <script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script> 
+ --><!-- <script src="vendor/jquery.gmap/jquery.gmap.js"></script> 
+ --><!-- <script src="vendor/twitterjs/twitter.js"></script> 
+ --><!-- <script src="vendor/isotope/jquery.isotope.js"></script> 
+ --><!-- <script src="vendor/owlcarousel/owl.carousel.js"></script> 
+ --><!-- <script src="vendor/jflickrfeed/jflickrfeed.js"></script> 
+ --><!-- <script src="vendor/magnific-popup/jquery.magnific-popup.js"></script> 
+ --><script src="vendor/vide/vide.js"></script> 
+
+<!-- Fancybox --> 
+<script src="fancybox/jquery.fancybox.js"></script>
+<script src="fancybox/main.js"></script>
+
+<!-- Theme Base, Components and Settings --> 
+<script src="js/theme.js"></script> 
+
+<!-- Theme Custom --> 
+<script src="js/custom.js"></script> 
+
+<!-- Theme Initialization Files --> 
+<script src="js/theme.init.js"></script> 
+
+<!-- Google Analytics -->
+
+
+
+  
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>De-Stress Yourself</title>
+<link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+<style>
+	body { font-family:Arial; color:#333; }
+	#main { background: transparent url('i/main-BG01.jpg') no-repeat top center; width:580px; height:330px !important; padding:10px; margin:0 auto; }
+	#main h1 { margin:0; padding:0; }
+	#main #left { width:360px; font-size:14px; float:left; }
+	#main #right{ width:220px; font-size:14px; float:left; }
+	#main #left #button-left { float:left; }
+	#main #left #button-right { float:left; margin-left:10px; }
+	#main .button { background: transparent url('i/button-BG.png') no-repeat top center; width:152px; height:33px; margin:7px 0; text-align:center; color:#fff; text-transform:uppercase; font-size:13px; padding-top:4px; line-height:13px; }
+	#main .button:hover { background: url('i/button-BGhov.png') no-repeat top center; }
+	#main .selected { background: url('i/button-BGsel.png') no-repeat top center; }
+	#main #right #image { text-align:center; margin:0 auto;  }
+	#main .clear { clear:both; }
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+	var images = ["image01.png","image02.png","image03.png","image04.png","image05.png","image06.png"];
+	var descriptions = ["Social connections make you happier, improve your health, and lead to a longer life. From a laugh-out-loud email to a heart-to-heart talk, friends can help you fight stress.","Negative thinking can drag down your mood and even your health. Start thinking more positively and focus on the things you can change rather than getting bogged down in things that are beyond your control.","You've heard about the many benefits of exercise, but did you know it can also reduce stress? Exercise reduces stress by relieving pent-up muscle tension, stimulating feel-good hormones, burning off stress hormones, and increasing blood flow to the brain.","Research indicates that those who consistently help other people experience less depression, greater calm, fewer pains, and better health. And helping out others doesn’t always have to be a grand gesture; it can be as simple as calling up an old friend or saying hello to a stranger on the street.","One of the top reasons people don’t get enough sleep is because they are too busy with other things. Research shows that you are more likely to succeed at daily tasks and obligations – and enjoy better health – if you regularly get sufficient sleep (at least 8 hours a night).","When stress or depression is interfering with your quality of life, it may be time to seek professional help. If you think professional help might be the answer for you, know that you’re not alone."];
+
+$(document).ready(function(){
+//PRELOAD THE IMAGES
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        	$('<img/>')[0].src = this;
+    });
+}
+// LIST THE IMAGES HERE
+preload([
+    	'i/button-BG.png',
+    	'i/button-BGhov.png',
+	'i/button-BGsel.png',
+	'i/image01.png',
+	'i/image02.png',
+	'i/image03.png',
+	'i/image04.png',
+	'i/image05.png',
+	'i/image06.png',
+	'i/main-BG01.jpg',
+	'i/main-BG02.jpg'
+	]);
+//CHANGE POINTER
+	$('.button').css('cursor','pointer');
+//HOVER AND ACTIVE STATES - BUTTON FUNCTION
+	$('.button').click(function(e) {
+
+  		$('.button').removeClass('selected');
+  		$(this).addClass('selected');
+		var i = $(this).data("index");
+  			$("#image").html("<img src=i/" + images[i] + " />");
+  			$("#desc").html(descriptions[i]);
+		});
+		$('.button').one("click", function(){
+			$('#main').css('background-image', 'url("i/main-BG02.jpg")');
+		});	
+	});
+</script>
+</head>
+<body>
+<div id="main">
+	<div id="left">	
+		<h1>De-Stress Yourself</h1>
+		<p>We know how little things can add up over time to become major causes of stress in our lives. Luckily, little changes in our daily behavior can make big differences in our ability to fight stress. Try these simple steps to help you manage stress and feel happier.</p>
+		<p>Click a button below to see what you can do every day to move more.</p>
+        <div id="help_flag"></div>
+		<div id="button-left">
+			<div class="button" data-index="0">connect<br />with others</div>
+			<div class="button" data-index="1">stay<br />positive</div>
+			<div class="button" data-index="2">become<br />physically active</div>
+		</div>
+		<div id="button-right">
+			<div class="button" data-index="3">help<br />others</div>
+			<div class="button" data-index="4">get<br />enough sleep</div>
+			<div class="button" data-index="5">seek<br />professional help</div>
+		</div>
+	</div>
+	<div id="right">
+		<div id="image">
+			<!-- PORTRAIT IMAGE 130X180  -->
+			<!-- LANDSCAPE IMAGE 200x160 -->
+		</div>
+		<div id="desc"></div>
+	</div>
+	<br class="clear" />
+</div>
+<style>
+@media only screen and (max-width: 480px) {
+		body { font-family:Arial; color:#333; width: 300px; }
+	#main { background: transparent url('i/main-BG02_2.jpg') no-repeat top center; width:300px; height:700px !important; padding:10px; margin:0 auto; }
+	#main h1 { margin:0; padding:0; }
+	#main p {width: 298px;}
+	#main #left { width:315px; font-size:14px; float:left; padding-right:35px; }
+	#main #right{ width:220px; font-size:14px; float:left; }
+	#main #left #button-left { float:left; width:155px; padding:0px;}
+	#main #left #button-right { float:left; margin-left:5px; }
+	#main .button { background: transparent url('i/button-BG.png') no-repeat top center; width:152px; height:33px; margin:7px 0; text-align:center; color:#fff; text-transform:uppercase; font-size:13px; padding-top:4px; line-height:13px; }
+	#main .button:hover { background: url('i/button-BGhov.png') no-repeat top center; }
+	#main .selected { background: url('i/button-BGsel.png') no-repeat top center; }
+	#main #right #image { text-align:center; margin:0 auto;  }
+	#main .clear { clear:both; }
+	#help_flag{ background:url('i/help_flag.png') ;
+		width:250px;
+		height:339px;
+		margin-left:20px;
+		}
+	
+	
+	
+	
+	}
+</style>
+</body>
+</html>
+

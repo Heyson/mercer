@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--******************************************************************************************************************************************************************
+	BASIC
+**********************************************************************************************************-->
+<meta charset="utf-8">
+<title>ACME - 2015 Health and Benefits Enrollment</title>
+<meta name="description" content="ACME - 2015 Health and Benefits Enrollment">
+
+<!--******************************************************************************************************************************************************************
+	MOBILE METAS
+********************************************************************************************************************************************************************-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--******************************************************************************************************************************************************************
+	WEB FONTS
+********************************************************************************************************************************************************************-->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+<!--******************************************************************************************************************************************************************
+	VENDOR CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
+<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css">
+<!-- <link href="vendor/owlcarousel/owl.carousel.css" rel="stylesheet" media="screen">
+ -->
+<!--  <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.css" media="screen">
+ --><!-- <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
+ -->
+<!--******************************************************************************************************************************************************************
+	THEME CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/theme-elements.css">
+<link rel="stylesheet" href="css/theme-blog.css">
+<link rel="stylesheet" href="css/theme-shop.css">
+<link rel="stylesheet" href="css/theme-animate.css">
+
+<!--******************************************************************************************************************************************************************
+	SEARCH CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet"  href="tipuesearch/tipuesearch.css">
+
+<!--******************************************************************************************************************************************************************
+	CURRENT PAGE CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
+<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+<!--******************************************************************************************************************************************************************
+	SKIN CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="css/skins/default.css">
+
+<!--******************************************************************************************************************************************************************
+  FANCYBOX CSS
+********************************************************************************************************************************************************************-->
+
+ <link rel="stylesheet" href="fancybox/jquery.fancybox.css"/>
+
+<!--******************************************************************************************************************************************************************
+	THEME CUSTOM CSS
+********************************************************************************************************************************************************************-->
+<link rel="stylesheet" href="css/custom.css">
+
+<!--******************************************************************************************************************************************************************
+	HEAD LIBS
+********************************************************************************************************************************************************************-->
+<script src="vendor/modernizr/modernizr.js"></script>
+
+<!--[if IE]>
+			<link rel="stylesheet" href="css/ie.css">
+		<![endif]-->
+
+<!--[if lte IE 8]>
+			<script src="vendor/respond/respond.js"></script>
+			<script src="vendor/excanvas/excanvas.js"></script>
+		<![endif]-->
+
+</head>
+<body>
+
+
+
+<!--******************************************************************************************************************************************************************
+	BODY
+********************************************************************************************************************************************************************-->
+<div class="body">
+<div role="main" class="main">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      <h3>1. Am I paying for too much coverage?  </h3>
+      <p>Possibly. A recent study showed that people who switched from a traditional insurance plan (like a PPO or HMO) to a CDHP reduced their annual medical costs by an average of 13% in the first year, with sustainable savings that continued year over year.* [Client] wants to help you choose the best medical plan for you and your family. Here are some ways you can avoid paying for too much medical coverage.</p>
+      <ol>
+        <li>Think about how much you’ve spent on health care in 2015, and for what. Do you think you’ll use the same medical services in 2016 that you used in 2015?</li>
+        <li>Carefully consider your and your family’s health care needs for 2016. Only you can decide which plan is best for you. You owe it to yourself and your family to think about how you will use benefits in the coming year (e.g., annual physicals, medications) and determine which benefits will help you maximize your budget while meeting your health care needs.</li>
+        <li>Think about the whole cost. The deductible amount shouldn’t be the only factor you consider when comparing plan costs. The same goes for premium contributions. It’s important that you think about the total cost you’ll spend out of your paycheck and out of your pocket.</li>
+      </ol>
+      <p><small>*7th Annual Cigna Choice Fund Experience Study, 2013</small></p>
+
+      
+
+
+
+
+      </div>
+  
+    </div>
+   </div>
+  </div>
+
+</div>
+
+
+<!--******************************************************************************************************************************************************************
+	JS
+********************************************************************************************************************************************************************-->
+<script src="vendor/jquery/jquery.js"></script> 
+<script src="vendor/jquery.appear/jquery.appear.js"></script> 
+<script src="vendor/jquery.easing/jquery.easing.js"></script> 
+<script src="vendor/jquery-cookie/jquery-cookie.js"></script> 
+<script src="vendor/bootstrap/bootstrap.js"></script> 
+<script src="vendor/common/common.js"></script> 
+<script src="vendor/jquery.validation/jquery.validation.js"></script> 
+<script src="vendor/jquery.stellar/jquery.stellar.js"></script> 
+<!-- <script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script> 
+ --><!-- <script src="vendor/jquery.gmap/jquery.gmap.js"></script> 
+ --><!-- <script src="vendor/twitterjs/twitter.js"></script> 
+ --><!-- <script src="vendor/isotope/jquery.isotope.js"></script> 
+ --><!-- <script src="vendor/owlcarousel/owl.carousel.js"></script> 
+ --><!-- <script src="vendor/jflickrfeed/jflickrfeed.js"></script> 
+ --><!-- <script src="vendor/magnific-popup/jquery.magnific-popup.js"></script> 
+ --><script src="vendor/vide/vide.js"></script> 
+
+<!-- Fancybox --> 
+<script src="fancybox/jquery.fancybox.js"></script>
+<script src="fancybox/main.js"></script>
+
+<!-- Theme Base, Components and Settings --> 
+<script src="js/theme.js"></script> 
+
+<!-- Theme Custom --> 
+<script src="js/custom.js"></script> 
+
+<!-- Theme Initialization Files --> 
+<script src="js/theme.init.js"></script> 
+
+<!-- Google Analytics -->
+
+
+
+  
+</body>
+</html>

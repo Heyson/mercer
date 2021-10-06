@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: style.css" type="text/css">
+<style type="text/css">
+
+/* CSS Document */
+
+.name_convention_form {
+	width: 755px;
+	height: 340px;
+	border-radius:10px;
+	border: solid 2px #23447e;
+	padding: 30px 0px 0px 0px;
+	background-color: #ffffff;
+	
+	}
+	
+.form1{
+	margin: 70px 0px 0px 0px;
+	padding:10px;
+	}
+	
+.text_input {
+	display:inline;
+	float:right;
+	}
+	
+.results{
+	width: 710px;
+	margin:5px;
+	
+	}
+	
+.form1{
+	background-color: #047fb1;
+	padding: 5px;
+	border-radius:5px;
+	margin: 10px 0px 0px 0px;
+	width:745px;
+	
+	}
+	
+.logo {
+	margin: 0px 0px 0px 10px;
+	}
+	
+.footer_image {
+	width: 50px;
+	}
+
+</style>
+</head>
+
+<div class="name_convention_form">
+
+
+<div class="logo"><img src="mmc_logo.png" width=480px; ></div>
+
+<form class="form1" oninput="naming_results.value = project_code.value +' '+ client_code.value +' '+ client_name.value +' '+ project_name.value +' '+ text_input.value" >
+<!--Choose project code-->
+<select value="project_code" name="project_code">
+<option value="please choose client code" selected>Choose project code</option>
+<option value="project_code_1">project_code_1</option>
+<option value="project_code_2">project_code_2</option>
+<option value="project_code_3">project_code_3</option>
+<option value="project_code_4">project_code_4</option>
+<option value="project_code_5">project_code_5</option>
+<option value="project_code_6">project_code_6</option>
+<option value="project_code_7">project_code_7</option>
+<option value="project_code_8">project_code_8</option>
+<option value="project_code_9">project_code_9</option>
+<option value="project_code_10">project_code_10</option>
+<option value="project_code_11">project_code_11</option>
+<option value="project_code_12">project_code_12</option>
+</select>
+<!--Choose client code-->
+<select value="client_code" name="client_code">
+<option value="please choose client code" selected>Choose client code</option>
+<option value="client_code_1">client_code_1</option>
+<option value="client_code_2">client_code_2</option>
+<option value="client_code_3">client_code_3</option>
+<option value="client_code_4">client_code_4</option>
+<option value="client_code_5">client_code_5</option>
+<option value="client_code_6">client_code_6</option>
+<option value="client_code_7">client_code_7</option>
+<option value="client_code_8">client_code_8</option>
+<option value="client_code_9">client_code_9</option>
+<option value="client_code_10">client_code_10</option>
+<option value="client_code_11">client_code_11</option>
+<option value="client_code_12">client_code_12</option>
+</select>
+<!--Choose client name-->
+<select value="client_name" name="client_name">
+<option value="please choose client name" selected>Choose client name</option>
+<option value="client_name_1">client_name_1</option>
+<option value="client_name_2">client_name_2</option>
+<option value="client_name_3">client_name_3</option>
+<option value="client_name_4">client_name_4</option>
+<option value="client_name_5">client_name_5</option>
+<option value="client_name_6">client_name_6</option>
+<option value="client_name_7">client_name_7</option>
+<option value="client_name_8">client_name_8</option>
+<option value="client_name_9">client_name_9</option>
+<option value="client_name_10">client_name_10</option>
+<option value="client_name_11">client_name_11</option>
+<option value="client_name_12">client_name_12</option>
+</select>
+
+<!--Choose client value-->
+<select value="project_name" name="project_name">
+<option value="please choose project name" selected>Choose project name</option>
+<option value="project_name_1">project_name_1</option>
+<option value="project_name_2">project_name_2</option>
+<option value="project_name_3">project_name_3</option>
+<option value="project_name_4">project_name_4</option>
+<option value="project_name_5">project_name_5</option>
+<option value="project_name_6">project_name_6</option>
+<option value="project_name_7">project_name_7</option>
+<option value="project_name_8">project_name_8</option>
+<option value="project_name_9">project_name_9</option>
+<option value="project_name_10">project_name_10</option>
+<option value="project_name_11">project_name_11</option>
+<option value="project_name_12">project_name_12</option>
+</select>
+<!--Enter Text Filed-->
+<input id="result_value" value="" class="text_input" name="text_input" type="text"  >
+<input id="copy" class="results" type="text" name="naming_results" onclick=" this.select(); copyToClipboard(document.getElementByName('copy').innerHTML);" onMouseUp="Copy();" > 
+</form>
+<div class="footer_image"><img src="MMC_prism.png"></div>
+<script>
+
+    function copyToClipboard(s) {
+    if (window.clipboardData && clipboardData.setData) {
+    clipboardData.setData('text', s);
+    }
+    }
+
+</script>
+
+<script>
+function Copy() {
+ if(window.clipboardData) {
+   window.clipboardData.clearData();
+   window.clipboardData.setData("Text", document.getElementById('txtacpy').value);
+ } 
+}
+function paste() {
+ if(window.clipboardData) {   
+   document.getElementById('txtapaste').value = window.clipboardData.getData("Text");
+ } 
+}
+</script>
+<a href="javascript:Copy();">Copy</a>
+<br />
+<input type="text" name="txtacpy" id ="txtacpy"/>
+<br />
+<a href="javascript:paste();">Paste</a>
+<br />
+<input type="text" name="txtapaste"  id="txtapaste"/>
+</div>
+
+
+<body>
+</body>
+</html>

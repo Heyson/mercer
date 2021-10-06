@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+	font-size: 18px;
+	color: #23447e;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: .1px;
+	text-align: left;
+	margin-left: 45px;
+}
+h3 {
+	font-size: 12px;
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: .1px;
+	display: inline;
+	margin-right: 30px;
+}
+h4{
+	
+	font-size: 12px;
+	color: #23447e;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:400;
+	letter-spacing: .1px;
+	text-align: right;
+	margin: -22px 10px 0px 0px;
+	display:inline;
+	float:right;
+	}
+	
+h6 {
+	font-size: 12px;
+	color: #000000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: .1px;
+	font-weight: 400;
+	margin: 10px 0 0 45px;
+}
+	
+	
+ul li {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 6px 0 0;
+}
+.name_convention_form {
+	width: 755px;
+	height: 270px;
+	border-radius: 10px;
+	border: solid 2px #23447e;
+	padding: 30px 0px 0px 0px;
+	background-color: #ffffff;
+}
+.form1 {
+	margin: 30px 0px 0px 0px;
+	padding: 10px;
+}
+.max_width {
+	width: 50px;
+}
+.text_input {
+	display: inline;
+}
+.results {
+	width: 670px;
+	margin: 5px 0 0 0px;
+}
+.form1 {
+	background-color: #047fb1;
+	padding: 5px 5px 5px 5px;
+	/*border-radius:5px;*/
+	margin: 10px 0px 0px 0px;
+	width: 745px;
+	height: 130px;
+}
+.copy {
+	margin: 0 0 0 0;
+}
+.result_value {
+	margin: -10px 0px 0px 0px;
+}
+.logo {
+	margin: -20px 0px 0px 10px;
+}
+.footer_image {
+	width: 50px;
+}
