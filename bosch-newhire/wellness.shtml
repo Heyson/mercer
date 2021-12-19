@@ -1,0 +1,483 @@
+﻿<!DOCTYPE html>
+
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+
+<html lang="en">
+
+<!--<![endif]-->
+
+<head>
+
+
+
+<!-- Basic Page Needs
+
+================================================== -->
+
+<meta charset="utf-8">
+
+<title>Bosch - NEW HIRE -  Wellness</title>
+
+
+
+<!-- Mobile Specific
+
+================================================== -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<!-- CSS
+
+================================================== -->
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="stylesheet" type="text/css" href="css/boxed.css" id="layout">
+
+<link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">
+
+
+
+<!-- Java Script
+
+================================================== -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+
+
+<!-- scrollUp scripts -->
+
+<script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+
+<script>
+
+		/* scrollUp Minimum setup */
+
+		$(function () {
+
+			$.scrollUp();
+
+		});
+
+</script>
+
+<script src="js/custom.js"></script>
+
+<script src="js/selectnav.js"></script>
+
+<script src="js/flexslider.js"></script>
+
+<script src="js/twitter.js"></script>
+
+<script src="js/tooltip.js"></script>
+
+<script src="js/effects.js"></script>
+
+<script src="js/fancybox.js"></script>
+
+<script src="js/carousel.js"></script>
+
+<script src="js/isotope.js"></script>
+
+
+
+<!-- SEARCH
+
+================================================== -->
+
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+
+
+<!--[if gte IE 7]>
+
+<style type="text/css">
+
+		.mobile-search { display:none;}
+
+</style>
+
+<![endif]-->
+
+
+
+<!-- syntax highlighter -->
+
+<script src="preview-assets/js/highlight.pack.js"></script>
+
+<script src="preview-assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+
+<script> hljs.initHighlightingOnLoad();</script>
+
+
+
+<!-- preview-related stylesheets -->
+
+<link href="preview-assets/css/reset.css" rel="stylesheet" type="text/css">
+
+<link href="preview-assets/css/grid.css" rel="stylesheet">
+
+<link href="preview-assets/css/smoothness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+
+<link href="preview-assets/css/github.css" rel="stylesheet">
+
+
+
+<!-- slider stylesheets -->
+
+<link href="royalslider/default/rs-default.css" rel="stylesheet">
+
+<link href="preview-assets/css/main.css" rel="stylesheet">
+
+<link href="preview-assets/css/sliderstyles.css" rel="stylesheet">
+
+
+
+<!-- scrollUp stylesheets -->
+
+<link id="scrollUpTheme" rel="stylesheet" href="css/themes/image.css">
+
+<link id="scrollUpTheme" rel="stylesheet" href="css/labs.css">
+
+
+
+<!-- Styles Switcher
+
+================================================== -->
+
+<link rel="stylesheet" type="text/css" href="css/switcher.css">
+
+<script src="js/switcher.js"></script>
+
+<style type="text/css">
+
+@media only screen and (min-width: 960px) {
+
+#portfolio-wrapper img {
+
+	min-height: 189px;
+
+}
+
+}
+
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+#portfolio-wrapper img {
+
+	min-height: 149px;
+
+}
+
+}
+
+</style>
+
+
+
+<!--Countdown Timer -->
+
+<script language="JavaScript">
+
+TargetDate = "02/19/2015";
+
+BackColor = "#none";
+
+ForeColor = "#000";
+
+CountActive = true;
+
+CountStepper = -1;
+
+LeadingZero = false;
+
+DisplayFormat = "%%D%% days";
+
+FinishMessage = "expired";
+
+</script>
+
+<!--End Countdown Timer -->
+
+
+
+<!-- For shadowbox -->
+
+<script type="text/javascript" src="shadowbox-3.0.3/shadowbox.js"></script>
+
+<script type="text/javascript">
+
+Shadowbox.init({
+
+
+
+});
+
+</script>
+
+<!-- / For shadowbox -->
+
+
+
+<!-- Nav current state -->
+
+<script type="text/javascript" src="js/jquery-1.8.1.min"></script>
+
+<style>
+
+#navigation ul li a.selected {
+
+	background:#bfa934;
+
+	color: #FFF;
+
+}
+
+</style>
+
+<script>
+
+ $(function() {
+
+     var pgurl = window.location.href.substr(window.location.href
+
+.lastIndexOf("/")+1);
+
+     $("#navigation ul li a").each(function(){
+
+          if($(this).attr("href") == pgurl)
+
+          $(this).addClass("selected");
+
+     })
+
+});
+
+ </script>
+
+<!-- FANCYBOX -->
+
+<script type="text/javascript" src="js/fancybox/main.js"></script>
+
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+
+<!-- / FANCYBOX -->
+
+<!-- Google Analytics -->
+
+<script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-40232892-29']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>
+
+<!-- / Google Analytics -->
+
+</head>
+
+<body>
+
+
+
+<!-- Wrapper Start -->
+
+<div id="wrapper"> 
+
+  
+
+  <!-- Header
+
+================================================== -->
+
+  
+
+  <div class="container"> 
+
+    
+
+    <!-- Header -->
+
+    <div id="header"> 
+
+      <!--#include file="includes/logo.shtml" --> 
+
+      <!--#include file="includes/header_title.shtml" --> 
+
+    <!--#include file="includes/nav.shtml" --> 
+
+  </div>
+
+  
+
+  <!-- Content
+
+================================================== --> 
+
+  
+
+  <!-- 960 Container -->
+
+  <div class="container">
+
+    <div class=" sixteen column"> 
+
+      
+
+      <!-- Page Title -->
+
+      <div id="page-title"> 
+
+        
+
+        <!-- The mobile-search include below is for the site search to appear below the nav drop-down on 
+
+      mobile devices only. It will not appear for desktop users. --> 
+
+        <!--#include file="includes/mobile-search.shtml" -->
+
+        <h2>Wellness</h2>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- 960 Container end --> 
+
+  
+
+  <!-- 960 Container Start -->
+
+  <div class="container">
+
+    <div class="two-thirds column" style="margin-right:0px; margin-left:20px" id="twothirds_mobile">
+
+      <p>Bosch wants you  and your family to be healthy. That&rsquo;s why we encourage you to use these  wellness resources — and they&rsquo;re available at no cost to you!</p><!-- Accordion #1 --> 
+
+       <span class="acc-trigger"><a href="#"><span >B<span style="text-transform:lowercase;">e</span> W<span style="text-transform:lowercase;">ell</span></a></span> 
+
+      <div class="acc-container" style="width:620px;">
+
+        <div class="content">
+
+          <img src="images/be_well_banner.png" align="right" style="padding-left:16px;">
+
+          <p>As you move forward in your health journey, Bosch is here to help you  along. Through <em>Be Well</em>, you have
+
+            access to free tools and resources to help you maintain and improve your  health and well-being, including:</p>
+
+          <ul class="circle_list">
+
+            <li>Free, annual on-site screenings and flu shots       (at larger locations).</li>
+
+            <li>Free Health Risk Assessments (HRAs).</li>
+
+            <li>Local wellness activities.</li>
+
+            <li>Confidential coaching through our wellness       partner, Preventure.</li>
+
+            <li>Weight Watchers (subsidized by Bosch).</li>
+
+          </ul>
+
+          <p>The program even offers you financial incentives for completing the  biometric screening and HRA, then provides additional services to help you work  toward your personal health goals. To learn more about <em>Be Well</em>, visit <a href="https://bewell.preventure.com" target="_blank">https://bewell.preventure.com</a> and register with your personnel number.</p>
+
+        </div>
+
+      </div>
+
+      
+
+      <!-- Accordion #2 --> 
+
+      <span class="acc-trigger"><a href="#">Employee Assistance Program (EAP) </a></span>
+
+      <div class="acc-container">
+
+        <div class="content">
+
+          <p>You and your  dependents have access to Bosch&rsquo;s confidential Employee Assistance Program  (EAP), managed by CIGNA Behavioral Health — and it&rsquo;s available at no cost to  you. If you are struggling with a personal concern, crisis, or even an everyday  issue, the EAP can be an invaluable resource. You can get assistance with legal  questions or concerns, marital or family conflicts, childcare and senior care,  financial problems, alcohol/drug issues, stress and emotional issues, and much  more. To learn more, log on to <a href="http://www.cignabehavioral.com" target="_blank">www.cignabehavioral.com</a>. </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- end two thirds -->
+
+    
+
+    <div class="one-third column">
+
+      <div class="item-description" id="bluebox">
+
+        <h5>FREE PREVENTIVE CARE</h5>
+
+        <p>Remember that  Bosch medical plans cover in-network preventive care at 100%, with no  deductible. This means you pay nothing out-of-pocket for annual physicals, routine  blood work, flu shots and vaccinations, screenings, and more.</p>
+
+      </div>
+
+      <div class="item-description" id="greybox">
+
+        <h5>BE WELL, BUY SMART</h5>
+
+        <p>You can <a href="be_well.shtml">save money</a> on your medical expenses with  these easy tips. </p>
+
+      </div>
+
+    </div>
+
+    <!-- end one third --> 
+
+    
+
+  </div>
+
+  <!-- 960 Container end --> 
+
+  <!-- Footer --> 
+
+  <!--#include file="includes/footer_i.shtml" --> 
+
+  
+
+</div>
+
+<!-- Wrapper / End -->
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<title>Bosch - NEW HIRE - How to Enroll</title>
+
+<!-- Mobile Specific
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/boxed.css" id="layout">
+<link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">
+
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<!-- scrollUp scripts -->
+<script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+<script>
+		/* scrollUp Minimum setup */
+		$(function () {
+			$.scrollUp();
+		});
+</script>
+<script src="js/custom.js"></script>
+<script src="js/selectnav.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/twitter.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/fancybox.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/isotope.js"></script>
+
+<!-- SEARCH
+================================================== -->
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<!--[if gte IE 7]>
+<style type="text/css">
+		.mobile-search { display:none;}
+</style>
+<![endif]-->
+
+<!-- syntax highlighter -->
+<script src="preview-assets/js/highlight.pack.js"></script>
+<script src="preview-assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+<script> hljs.initHighlightingOnLoad();</script>
+
+<!-- preview-related stylesheets -->
+<link href="preview-assets/css/reset.css" rel="stylesheet" type="text/css">
+<link href="preview-assets/css/grid.css" rel="stylesheet">
+<link href="preview-assets/css/smoothness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+<link href="preview-assets/css/github.css" rel="stylesheet">
+
+<!-- slider stylesheets -->
+<link href="royalslider/default/rs-default.css" rel="stylesheet">
+<link href="preview-assets/css/main.css" rel="stylesheet">
+<link href="preview-assets/css/sliderstyles.css" rel="stylesheet">
+
+<!-- scrollUp stylesheets -->
+<link id="scrollUpTheme" rel="stylesheet" href="css/themes/image.css">
+<link id="scrollUpTheme" rel="stylesheet" href="css/labs.css">
+
+<!-- Styles Switcher
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/switcher.css">
+<script src="js/switcher.js"></script>
+<style type="text/css">
+@media only screen and (min-width: 960px) {
+#portfolio-wrapper img {
+	min-height: 189px;
+}
+}
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+#portfolio-wrapper img {
+	min-height: 149px;
+}
+}
+</style>
+
+<!--Countdown Timer -->
+<script language="JavaScript">
+TargetDate = "02/19/2015";
+BackColor = "#none";
+ForeColor = "#000";
+CountActive = true;
+CountStepper = -1;
+LeadingZero = false;
+DisplayFormat = "%%D%% days";
+FinishMessage = "expired";
+</script>
+<!--End Countdown Timer -->
+
+<!-- For shadowbox -->
+<script type="text/javascript" src="shadowbox-3.0.3/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init({
+
+});
+</script>
+<!-- / For shadowbox -->
+
+<!-- Nav current state -->
+<script type="text/javascript" src="js/jquery-1.8.1.min"></script>
+<style>
+
+#navigation ul li a.selected {
+
+	background:#bfa934;
+
+	color: #FFF;
+
+}
+
+</style>
+<script>
+ $(function() {
+     var pgurl = window.location.href.substr(window.location.href
+.lastIndexOf("/")+1);
+     $("#navigation ul li a").each(function(){
+          if($(this).attr("href") == pgurl)
+          $(this).addClass("selected");
+     })
+});
+ </script>
+<!-- FANCYBOX -->
+<script type="text/javascript" src="js/fancybox/main.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+<!-- / FANCYBOX -->
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40232892-29']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- / Google Analytics -->
+</head>
+<body>
+
+<!-- Wrapper Start -->
+<div id="wrapper"> 
+  
+  <!-- Header
+================================================== -->
+  
+  <div class="container"> 
+    
+    <!-- Header -->
+    <div id="header"> 
+      <!--#include file="includes/logo.shtml" --> 
+      <!--#include file="includes/header_title.shtml" --> 
+    <!--#include file="includes/nav.shtml" --> 
+  </div>
+  
+  <!-- Content
+================================================== --> 
+  
+  <!-- 960 Container -->
+  <div class="container">
+    <div class=" sixteen column"> 
+      
+      <!-- Page Title -->
+      <div id="page-title"> 
+        
+        <!-- The mobile-search include below is for the site search to appear below the nav drop-down on 
+      mobile devices only. It will not appear for desktop users. --> 
+        <!--#include file="includes/mobile-search.shtml" -->
+        <h2>Medical plans</h2>
+      </div>
+    </div>
+  </div>
+  <!-- 960 Container end --> 
+  
+  <!-- 960 Container Start -->
+  <div class="container">
+    <div class="two-thirds column" style="margin-right:0px; margin-left:20px" id="twothirds_mobile">
+      <p>As a Bosch associate, you have a choice of two Consumer Driven Health  Plan (CDHP) options: CDHP 80 and CDHP 90. Both are administered through  BlueCross BlueShield of Illinois (BCBSIL).</p>
+      <h5>WHAT IS A CDHP?</h5>
+      <p> Consumer Driven Health Plans, or CDHPs, encourage you to lead a healthy  lifestyle and to buy smart when you need healthcare. In turn, they offer you a  tax-free Health Savings Account (HSA), lower premiums than traditional types of  health insurance plans, and free in-network preventive care. </p>
+      
+      <!-- Accordion #1 --> 
+      <span class="acc-trigger"><a href="#">1. Tax-advantaged savings account</a></span>
+      <div class="acc-container" style="width:620px;">
+        <div class="content">
+          <p>When you enroll in one of Bosch&rsquo;s CDHPs, you can open a <a href="fsa_hsa.shtml">Health Savings Account (HSA)</a> — it&rsquo;s  one of the best perks of this type of plan. Each year, to help you cover your  out-of-pocket health costs, Bosch will contribute to your HSA on your behalf:</p>
+          <ul class="circle_list">
+            <li><strong>$500 for individual coverage and $1,000 for family coverage</strong> (family coverage is any other coverage level other than employee-only) if base pay is $50,000 or more. Note that amounts may be prorated based on your date of hire.   </li>
+            <li><strong>$595 for individual coverage and $1,190 for family coverage</strong> (family coverage is any other coverage level other than employee-only) if base pay is less than $50,000. Note that amounts may be prorated based on your date of hire.   </li>
+          </ul>
+          <p>All contributions to and withdrawals from your  account are tax-free, as long as you use the money to pay for eligible  health-related expenses. Additionally, all the money in the account is yours  and will never be forfeited. You can roll it over at the end of each year and  take it with you if you leave the Company. You can even use it for  health-related expenses during retirement. </p>
+            <p><a href="fsa_hsa.shtml">Learn more about the HSA</a>.</p>
+        </div>
+      </div>
+      
+      <!-- Accordion #2 --> 
+      <span class="acc-trigger"><a href="#">2. Low-premium, high-deductible coverage</a></span>
+      <div class="acc-container">
+        <div class="content">
+          <p>With the CDHPs, your per-paycheck premium costs are much lower compared  to traditional HMO and PPO plan options, so you get to keep more of your  paycheck each month. And, while the annual deductible is higher, you can use  the tax-free money in your HSA to help cover your out-of-pocket costs. </p>
+          <p>With this type of plan, you follow a simple three-step process to pay for  your nonpreventive medical expenses and prescription drugs: </p>
+          <ul class="circle_list">
+            <li>You pay 100% of your initial medical costs until  you meet your annual deductible. </li>
+            <li>After you meet your annual deductible, the plan  pays a certain percentage of any further costs until you reach your annual  out-of-pocket maximum (this is known as &ldquo;coinsurance&rdquo;). </li>
+            <li>Once you meet your out-of-pocket maximum, the  plan pays 100% of your eligible expenses for the remainder of the year.</li>
+          </ul>
+          <p><a class="fancybox fancybox.iframe" href="popups/medical_compare.html">See complete coverage details</a>.</p>
+        </div>
+      </div>
+      
+      <!-- Accordion #3 --> 
+      <span class="acc-trigger"><a href="#">3. Free in-network preventive care</a></span>
+      <div class="acc-container">
+        <div class="content">
+          <p>Preventive care is fully covered under the CDHPs, meaning you pay  nothing toward your deductible and no copays as long as you receive this care  from in-network providers. Common preventive care services are listed below. When you receive these services, be sure that your doctor codes
+          the eligible procedure as routine or preventive to ensure that you receive the full Bosch benefit.</p>
+          <ul class="circle_list">
+            <li>Female contraceptives (excluding brand name prescriptions with a generic equivalent).</li>
+            <li> Immunizations.</li>
+            <li>Routine blood work (e.g., glucose, cholesterol, iron).</li>
+            <li>Routine colorectal cancer screening.</li>
+            <li>Routine diagnostic tests (e.g., EKG, bone density tests).</li>
+            <li>Routine digital rectal exams.</li>
+            <li>Routine gynecological exams.</li>
+            <li>Routine mammograms.</li>
+            <li>Routine pap smear tests.</li>
+            <li>Routine prostate tests.</li>
+            <li>Routine urinalysis.</li>
+            <li>Well-baby care.</li>
+            <li>Wellness exams.</li>
+            <li>Certain preventive care prescription drugs.</li>
+          </ul>
+          <p>For more information about this coverage, visit the CDHP Resource Center on the Bosch Benefits Web site.</p>
+        </div>
+      </div>
+      <p><strong>COMPARE YOUR OPTIONS </strong><br>
+        <strong>The CDHP 80 or CDHP 90: Which is best for you? </strong><br>
+Consider the  amount of coinsurance you want Bosch to pay on your behalf &mdash; 80% or 90% &mdash; once  you meet your annual deductible. While the CDHP 80 option has a higher  deductible, you&rsquo;ll also pay a lower per-paycheck premium. So, when making your  decision, consider whether you prefer lower per-paycheck premiums in exchange  for higher deductibles, or the opposite.</p>
+      <p><a class="fancybox fancybox.iframe" href="popups/medical_compare.html">Compare plans &raquo;</a></p>
+    </div>
+    <!-- end two thirds -->
+    
+    <div class="one-third column">
+      <div class="item-description" id="bluebox">
+        <h5>USE THE TOOLS</h5>
+        <p>Log on to the Bosch Benefits Web site at <a href="http://www.ibenefitcenter.com" target="_blank">www.ibenefitcenter.com</a> to access the <strong>Plan Comparison tool</strong> and instantly compare annual deductibles, out-of-pocket  maximums, prescription drug information, and other plan benefits. </p>
+      </div>
+      <div class="item-description" id="yellowbox">
+        <h5>GLOSSARY</h5>
+        <p>Review these <a class="fancybox fancybox.iframe" href="popups/glossary.html" align="right">helpful definitions</a>. </p>
+      </div>
+      <div class="item-description" id="redbox">
+        <h5>GET AN INSTANT TAX BREAK
+</h5>
+        <p>Did you know that your paycheck deductions for medical, dental, and vision coverage, as well as any reimbursement accounts (e.g., HSA and FSAs), are automatically taken out on a pre-tax basis? This lowers your taxable pay and, therefore, the amount of income tax you pay.</p>
+      </div>
+    </div>
+    <!-- end one third --> 
+    
+  </div>
+  <!-- 960 Container end --> 
+  <!-- Footer --> 
+  <!--#include file="includes/footer_i.shtml" --> 
+  
+</div>
+<!-- Wrapper / End -->
+
+</body>
+</html>
