@@ -1,0 +1,19 @@
+<!-- Footer Start -->
+
+<div id="footer"> 
+  <!-- Footer / Bottom -->
+  <div class="sixteen columns">
+    <ul class="social-icons">
+      <li class="share"><a href="mailto:?subject=Bosch 2016 New Hire Enrollment Guide&body=As a Bosch associate, you and your family have access to a comprehensive health and welfare benefits program. Before you enroll in your benefits for the 2016 plan year (April 1, 2016–March 31, 2017), please research your options using this interactive guide at www.myhealthandwelfareplan.com/rbna.">Share</a></li>
+      <li class="print"><a href="javascript:window.print();">Print </a></li>
+    </ul>
+    <div class="clear"></div>
+    <div id="footer-bottom">
+      <p><a href="http://www.ibenefitcenter.com" target="_blank">www.ibenefitcenter.com</a> | Bosch Benefits Center: 800-207-9012  (857-362-5996 internationally)<br>
+        For  Bosch  associates 
+        </p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer / End --> 

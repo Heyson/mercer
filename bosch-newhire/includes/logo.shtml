@@ -1,0 +1,13 @@
+<!-- Logo -->
+
+		<div class="six columns">
+
+			<div id="logo">
+
+				<a href="index.shtml"><img src="images/logo_bosch.png" alt="Bosch" /></a> 
+
+				<div class="clear"></div>
+
+			</div>
+
+		</div>
