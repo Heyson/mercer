@@ -1,0 +1,239 @@
+
+/*jquery overrides*/
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background-color: #34383e;
+    border-color: #DDD;
+    color: fff;
+    text-shadow: 0px 1px 0px #EEE;
+    font-weight: 700;
+
+}
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+    font-weight: 400;
+}
+
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.ui-header, .ui-footer {
+    border-width: 0px 0px;
+    border-style: none;
+
+}
+
+body {
+    font: 700 16px/16px 'Arimo', sans-serif;
+    color:#808284;
+    text-shadow:none;
+}
+
+
+header {min-height:55px;}
+
+header img {margin:10px;}
+
+header h1 {
+    padding:0;
+    margin:0;
+}
+/*
+header a {
+    color: #fff;
+    text-shadow: none;
+    font-family: 'Arimo', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}*/
+
+
+footer p {
+    color: #fff;
+    text-shadow: none;
+    font: 700 12px/12px 'Arimo', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/*Panel Grids*/
+.pan-one,
+.pan-two,
+.pan-three,
+.pan-four,
+.pan-five,
+.pan-six,
+.pan-seven,
+.pan-eight{
+    text-align:center;
+    margin:15px 0 5px 0;
+}
+
+.pan-seven,
+.pan-eight {
+    margin-bottom: 15px;
+}
+
+.pan-one a,
+.pan-two a,
+.pan-three a,
+.pan-four a,
+.pan-five a,
+.pan-six a,
+.pan-seven a,
+.pan-eight a        {
+    font: 400 .75rem/1.2 'Open Sans', sans-serif;
+    color:#808284;
+    text-decoration: none;
+
+}
+.pan-one a img,
+.pan-two a img,
+.pan-three a img,
+.pan-four a img,
+.pan-five a img,
+.pan-six a img,
+.pan-seven a img,
+.pan-eight a img{
+	width:50%;
+	height:auto;
+    display:block;
+    margin: 0 auto;
+    margin-bottom:5px;
+}
+
+/*panels*/
+
+/*Panel navigation*/
+
+.swipe{
+    position: absolute;
+    top: 235px;
+    left: 92%;
+}
+
+.panel-navigation{text-align: center;}
+
+.left {float:left;}
+
+.right{float:right;}
+
+a.btn-close {
+    font: 300 20px 'Open Sans', sans-serif;
+    color:#fff;
+    padding:0 25px 0 25px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+
+.panel-navigation hr {
+    color:#fff;
+    color:rgba(255,255,255, 0.4);
+    border-style: solid;
+}
+
+
+/*Panel Heading*/
+.panelHeader {margin: 10px 0 30px 0;}
+
+.panelHeader h1{
+   margin:0;
+   font: 300 20px/20px 'Open Sans', sans-serif;
+   text-transform: uppercase;
+   color:#fff;
+   display: inline;
+   position: relative;
+   top: 13px;
+   left: 0;
+}
+
+.panelHeader img {float:right;}
+
+.panels .panel-subheader {font: 700 14px/16px 'Arimo', sans-serif; }
+
+.panels p, a {
+    font: 400 14px/16px 'Arimo', sans-serif;  
+    color: #fff;
+}
+
+/*Panel grouping*/
+.panel-grouping {
+    display:block;
+    width:225px;
+    margin-bottom:20px;
+}
+
+.panel-grouping  .panel-header {
+    font: 700 14px/16px 'Arimo', sans-serif;
+    text-transform:uppercase;
+}
+
+.icon-list {
+    display: inline-block;
+    margin-top:-5px;
+}
+
+.icon-list img:first-child {margin-right:15px;}
+
+
+/*panel background colors*/
+#panelOne{background-color: #cb5a7c;}
+#panelTwo{background-color: #f39943;}
+#panelThree{background-color: #42c0d4;}
+#panelFour{background-color: #79769d;}
+#panelFive{background-color: #40aa96;}
+#panelSix{background-color: #2b7999;}
+#panelSeven{background-color: #8ca450;}
+#panelEight{background-color: #ef4a5d;}
+#panelNav {background-color: #b3b3b3;}
+
+
+.ui-content {
+    border-width: 0px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    padding: 0em;
+}
+
+
+/*side panels*/
+
+/*Nav Panel*/
+
+
+#panelNav .ui-panel-inner  a{
+    text-decoration: none;
+}
+
+ul.nav-primary {
+    list-style-type: none;
+    display:block;
+    margin:0;
+    padding:0;
+}
+
+ul.nav-primary a {
+    display: inline-block;
+    font: 300 20px 'Open Sans', sans-serif;
+    color:#fff;
+    margin:10px 0 10px 0;
+    text-decoration:none;
+}
+
+
+
+/*tablet(portrait and landscape)-----*/
+@media only screen and (min-device-width:768px) and (max-device-width: 1024px) {
+
+    .pan-one a, .pan-two a, .pan-three a, .pan-four a, .pan-five a, .pan-six a, .pan-seven a, .pan-eight a {
+    font-size:1.25em;
+    }
+}
+
+
+
