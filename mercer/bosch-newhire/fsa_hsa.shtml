@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<title>Bosch - NEW HIRE -  HSA/FSA</title>
+
+<!-- Mobile Specific
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/boxed.css" id="layout">
+<link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">
+
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<!-- scrollUp scripts -->
+<script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+<script>
+		/* scrollUp Minimum setup */
+		$(function () {
+			$.scrollUp();
+		});
+</script>
+<script src="js/custom.js"></script>
+<script src="js/selectnav.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/twitter.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/fancybox.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/isotope.js"></script>
+
+<!-- SEARCH
+================================================== -->
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<!--[if gte IE 7]>
+<style type="text/css">
+		.mobile-search { display:none;}
+</style>
+<![endif]-->
+
+<!-- syntax highlighter -->
+<script src="preview-assets/js/highlight.pack.js"></script>
+<script src="preview-assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+<script> hljs.initHighlightingOnLoad();</script>
+
+<!-- preview-related stylesheets -->
+<link href="preview-assets/css/reset.css" rel="stylesheet" type="text/css">
+<link href="preview-assets/css/grid.css" rel="stylesheet">
+<link href="preview-assets/css/smoothness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+<link href="preview-assets/css/github.css" rel="stylesheet">
+
+<!-- slider stylesheets -->
+<link href="royalslider/default/rs-default.css" rel="stylesheet">
+<link href="preview-assets/css/main.css" rel="stylesheet">
+<link href="preview-assets/css/sliderstyles.css" rel="stylesheet">
+
+<!-- scrollUp stylesheets -->
+<link id="scrollUpTheme" rel="stylesheet" href="css/themes/image.css">
+<link id="scrollUpTheme" rel="stylesheet" href="css/labs.css">
+
+<!-- Styles Switcher
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/switcher.css">
+<script src="js/switcher.js"></script>
+<style type="text/css">
+@media only screen and (min-width: 960px) {
+#portfolio-wrapper img {
+	min-height: 189px;
+}
+}
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+#portfolio-wrapper img {
+	min-height: 149px;
+}
+}
+</style>
+
+<!--Countdown Timer -->
+<script language="JavaScript">
+TargetDate = "02/19/2015";
+BackColor = "#none";
+ForeColor = "#000";
+CountActive = true;
+CountStepper = -1;
+LeadingZero = false;
+DisplayFormat = "%%D%% days";
+FinishMessage = "expired";
+</script>
+<!--End Countdown Timer -->
+
+<!-- For shadowbox -->
+<script type="text/javascript" src="shadowbox-3.0.3/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init({
+
+});
+</script>
+<!-- / For shadowbox -->
+
+<!-- Nav current state -->
+<script type="text/javascript" src="js/jquery-1.8.1.min"></script>
+<style>
+
+#navigation ul li a.selected {
+
+	background:#bfa934;
+
+	color: #FFF;
+
+}
+
+</style>
+<script>
+ $(function() {
+     var pgurl = window.location.href.substr(window.location.href
+.lastIndexOf("/")+1);
+     $("#navigation ul li a").each(function(){
+          if($(this).attr("href") == pgurl)
+          $(this).addClass("selected");
+     })
+});
+ </script>
+<!-- FANCYBOX -->
+<script type="text/javascript" src="js/fancybox/main.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+<!-- / FANCYBOX -->
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40232892-29']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- / Google Analytics -->
+</head>
+<body>
+
+<!-- Wrapper Start -->
+<div id="wrapper"> 
+  
+  <!-- Header
+================================================== -->
+  
+  <div class="container"> 
+    
+    <!-- Header -->
+    <div id="header"> 
+      <!--#include file="includes/logo.shtml" --> 
+      <!--#include file="includes/header_title.shtml" --> 
+    <!--#include file="includes/nav.shtml" --> 
+  </div>
+  
+  <!-- Content
+================================================== --> 
+  
+  <!-- 960 Container -->
+  <div class="container">
+    <div class=" sixteen column"> 
+      
+      <!-- Page Title -->
+      <div id="page-title"> 
+        
+        <!-- The mobile-search include below is for the site search to appear below the nav drop-down on 
+      mobile devices only. It will not appear for desktop users. --> 
+        <!--#include file="includes/mobile-search.shtml" -->
+        <h2>Health Savings Account/Flexible Spending Accounts</h2>
+      </div>
+    </div>
+  </div>
+  <!-- 960 Container end --> 
+  
+  <!-- 960 Container Start -->
+  <div class="container">
+    <div class="two-thirds column" style="margin-right:0px; margin-left:20px" id="twothirds_mobile">
+      <p>The Health  Savings Account (HSA), Health Care Flexible Spending Account (FSA), and  Dependent Day Care FSA can stretch your benefit dollars further by allowing you  to pay for eligible expenses with tax-free dollars. Learn more about the  advantages of these plans below.</p>
+      
+      
+      
+     
+      
+      <!-- Accordion #1 --> 
+      <span class="acc-trigger"><a href="#">HSA</a></span>
+      <div class="acc-container" style="width:620px;">
+        <div class="content">
+          <p>When you enroll in Bosch&rsquo;s CDHP 80 or CDHP 90 plan for 2016, you will  also need to choose how much you wish to contribute, if anything, to an HSA. The  HSA is a tax-sheltered savings account that can save you a significant amount  on healthcare expenses, both now and in retirement. That&rsquo;s because it allows  you to pay for <a class="fancybox fancybox.iframe" href="popups/eligible.html">eligible medical expenses</a> with tax-free dollars — and, as an added benefit, Bosch will contribute money  into your account each year. </p>
+         <p> <a href="pdfs/Activate_your_HSA.pdf" target="_blank">Click here</a> to access detailed instructions for opening your HSA.</p>
+       
+          
+          <p><strong>How it works</strong></p>
+          <ul class="circle_list">
+            <li>If you enroll in one of the Bosch CDHP options and  open an HSA through the plan&rsquo;s benefit provider, BenefitWallet, you will  automatically receive a Bosch contribution to your account on a quarterly  basis, even if you don&rsquo;t contribute yourself. For 2016, Bosch&rsquo;s total annual  contribution to your HSA is:</li>
+           <ul>
+            <li><strong>$500 for individual coverage and $1,000 for family coverage</strong> (family coverage is any other coverage level other than employee-only) if base pay is $50,000 or more. Note that amounts may be prorated based on your date of hire.  </li>
+            <li><strong>$595 for individual coverage and $1,190 for family coverage</strong> (family coverage is any other coverage level other than employee-only) if base pay is less than $50,000. Note that amounts may be prorated based on your date of hire.  </li>
+            </ul>
+            <li>In addition to Bosch&rsquo;s contributions on your behalf,  you can elect to make additional pre- or after-tax contributions during the  year, up to the calendar year maximum. In the 2016 calendar year, the maximum HSA contribution from you and  Bosch combined is limited to $3,350 per person and  $6,750 per family. If you&rsquo;re age 55 or older, you may  contribute an additional $1,000 annually. </li>
+            <li>Your BenefitWallet HSA will earn interest annually,  adding to your account balance. Any interest or earnings on your money builds  tax-free.*</li>
+            <li>You may withdraw the money tax free to pay for  health-related expenses. Spend it by using a convenient HSA debit card or by writing checks from your HSA.  You can also withdraw money by paying directly from your HSA online using Direct Pay HSA.*</li>
+            <li>The money in your HSA is yours to keep and can be  rolled over from year to year (unlike the money in an FSA). You can take it  with you if you leave the Company, and you can even use it for health-related  expenses during retirement.</li>
+          </ul>
+          <p><em>*Money in an HSA grows tax-free  and can be withdrawn tax-free as long as it is used to pay for qualified  health-related expenses (a list of eligible expenses can be found in IRS  Publications 502 and 969, available at <a href="http://www.irs.gov" target="_blank">www.irs.gov</a>).  If money is used for ineligible expenses, you will pay ordinary income tax on  the amount withdrawn. If you withdraw the money before age 65, you will also  pay a 20% penalty tax.</em></p>
+        </div>
+      </div>
+      
+      <!-- Accordion #2 --> 
+      <span class="acc-trigger"><a href="#">Health Care FSA<span style="text-transform:lowercase;">s</span></a></span>
+      <div class="acc-container">
+        <div class="content">
+          <p>Bosch gives you the opportunity to save on taxes by depositing money from each paycheck into a Health Care FSA before taxes are taken out. You can set aside any amount between $120 and $2,550 each year and use it to pay for eligible health, dental, and vision care expenses (with a Traditional Health Care FSA), or for eligible dental and vision expenses only (with a Limited Purpose Health Care FSA). For instance, under either account, you could maximize your savings potential by using in-network vision and dental providers, then using the funds in your FSA to help offset costs not covered by the plan.</p>
+          <p><strong>Traditional or Limited Purpose Health Care FSA?</strong> Your participation in an HSA will determine which type of Health Care FSA you can enroll in: Traditional or Limited Purpose. Because of the many tax advantages an HSA provides, if you have an HSA, the government only allows you to participate in a Limited Purpose Health Care FSA at the same time. If you don’t have an HSA but are enrolled in a CDHP, you may still participate in a Traditional Health Care FSA.</p>
+          <p><strong>How they work</strong><br>
+          When you incur an eligible expense, you pay for it upfront and are reimbursed with pre-tax dollars from your account by PayFlex, the plan’s administrator. If you are enrolled in a BCBSIL plan and are not currently participating in an HSA, you will automatically be set up to participate in the crossover claims process with BCBSIL. Through this automatic claim submission process, all of your eligible medical out-of-pocket expenses will be automatically submitted to PayFlex by BCBSIL. PayFlex will then process the claim and issue a reimbursement to you directly via either direct deposit, or if chosen, paper check. If you prefer not to participate in the automatic claim submission process with BCBSIL, and you would rather submit claim forms yourself, you may contact the Bosch Benefits Center and request to opt out of the automatic claim submission process. If you are not enrolled in a BCBSIL plan or you incur eligible non-medical expenses, you must submit your receipts to PayFlex for reimbursement.
+</p>
+<p>Be sure to save all of your receipts in case you need to submit them to PayFlex for validation purposes. Because you contribute to an FSA with pre-tax dollars, you lower your taxable income and, therefore, the amount of current tax you owe. Plus, you won’t ever pay those taxes, even when you’re reimbursed. However, unlike an HSA, it’s critical that you carefully estimate how much money you’ll need to cover your healthcare expenses for the year since you’ll forfeit any amount that remains in your FSA at year-end.
+</p></div>
+      </div>
+      
+      <!-- Accordion #3 --> 
+      <span class="acc-trigger"><a href="#">Dependent Day Care FSA</a></span>
+      <div class="acc-container">
+        <div class="content">
+          <p>Bosch gives you the opportunity to save on taxes by depositing money from  each paycheck into a Dependent Day Care FSA before taxes are taken out. You can set aside between $120 and $5,000  ($2,500 if you are married and file your taxes separately) each year and use it  to pay for qualified child care expenses so you and your spouse/domestic partner  can work or attend school full time. Expenses are qualified if used for a child  under 13 or for the care of a physically or mentally disabled parent, child, or  other relative of any age whom you claim as a dependent for federal tax  purposes. Note that a dependent's healthcare expenses do not count as qualified dependent care expenses.</p>
+          
+          <p><strong>How it works</strong><br>
+            When you incur an eligible expense, you pay for it upfront and are  reimbursed with pre-tax dollars from your account by PayFlex, the plan&rsquo;s  administrator. Because you contribute to an FSA with pre-tax dollars, you lower  your taxable income and, therefore, the amount of current tax you owe. Plus,  you won&rsquo;t ever pay those taxes, even when you&rsquo;re reimbursed. However, unlike an  HSA, it&rsquo;s critical that you carefully estimate how much money you&rsquo;ll need to  cover your day care expenses for the year since you&rsquo;ll forfeit any amount that  remains in your FSA at year-end.</p>
+          
+          <p>Regardless of whether or not you have an HSA, you may participate in a  Dependent Day Care FSA at the same time.</p>
+        </div>
+      </div>
+    </div>
+    <!-- end two thirds -->
+    
+    <div class="one-third column">
+      <div class="item-description" id="bluebox">
+        <h5>COMPARE FSA<span style="text-transform:lowercase">s</span> AND HSA<span style="text-transform:lowercase">s</span></h5>
+        <p>These accounts have some important differences. <a class="fancybox fancybox.iframe" href="popups/hsa_fsa_compare.html">Learn more &raquo;</a></p>
+      </div>
+      <div class="item-description" id="yellowbox">
+        <h5>HOW MUCH SHOULD YOU CONTRIBUTE? </h5>
+        <p>FSAs are &ldquo;use it or lose it&rdquo; accounts. Visit the Bosch Benefits Web  site at <a href="http://www.ibenefitcenter.com" target="_blank">www.ibenefitcenter.com</a> to  access the FSA calculator, which will help you determine how much to contribute. </p>
+      </div>
+      <div class="item-description" id="redbox">
+        <h5>FOUR FSA RULES</h5>
+        <p><a class="fancybox fancybox.iframe" href="popups/fsa_rules.html">Get the facts before you  enroll!</a></p>
+      </div>
+    </div>
+    <!-- end one third --> 
+    
+  </div>
+  <!-- 960 Container end --> 
+  <!-- Footer --> 
+  <!--#include file="includes/footer_i.shtml" --> 
+  
+</div>
+<!-- Wrapper / End -->
+
+</body>
+</html>

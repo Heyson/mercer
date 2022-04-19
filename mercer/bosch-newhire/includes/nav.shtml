@@ -1,0 +1,36 @@
+<!-- Navigation -->
+
+<div class="sixteen columns">
+  <div id="navigation">
+    <ul id="nav">
+      <li><a href="index.shtml">Home</a></li>
+    <!--  <li><a href="new.shtml">New for 2015</a></li>-->
+      <li><a href="health_overview.shtml">Health benefits</a>
+        <ul>
+          <li><a href="medical.shtml">Medical</a></li>
+          <li><a href="dental.shtml">Dental</a></li>
+          <li><a href="vision.shtml">Vision</a></li>
+          <li><a href="fsa_hsa.shtml">HSA/FSAs</a></li>
+          <li><a href="wellness.shtml">Wellness</a></li>
+          <li><a href="be_well.shtml">Money-saving tips</a></li>
+        </ul>
+      </li>
+      <li><a href="other_benefits.shtml">Other benefits</a></li>
+      <li><a href="enroll.shtml">How to enroll</a></li>
+      <li><a href="tools.shtml">Tools</a></li>
+      <li><a href="contacts.shtml">Contacts</a></li> 
+       <!-- SEARCH FUNCTIONALITY -->
+      <form action="search_results.shtml">
+        <div style="float: right; margin-left: 2px; margin-right: 5px; margin-top:7px;">
+          <input type="button" id="tipue_search_button" onclick="this.form.submit();">
+        </div>
+        <div style="float: right; margin-top:12px; margin-right:5px;">
+          <input type="text" name="q" id="tipue_search_input" placeholder="Search">
+        </div>
+      </form>
+      <!-- / SEARCH FUNCTIONALITY -->     
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+<!-- Navigation / End -->

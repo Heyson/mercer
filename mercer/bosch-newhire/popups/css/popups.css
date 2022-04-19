@@ -1,0 +1,234 @@
+body {
+
+
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	background-color:#fff;
+
+}
+
+.disclaimer { font-size:12px;}
+
+h1 {
+
+	font-size: 18px;
+
+	color: #ED1D24;
+
+	padding: 0;
+
+	margin-top:0px;
+
+	text-transform:uppercase;
+
+}
+
+.header { color:#215F8B; font-size:20px;}
+
+
+
+p {
+
+	font-size: 14px;
+
+	color:#000000;
+
+	padding-left: 0px;
+
+	padding-right: 20px;
+
+	line-height: 18px;
+
+}
+
+a {
+
+	color: #004b8d;
+
+}
+
+
+
+.bw { line-height:24px;}
+
+
+
+li {
+
+	font-size: 14px;
+
+	color:#000000;
+
+	padding-right: 10px;
+
+	line-height:20px;
+
+	margin-left:-40px;
+
+	
+
+}
+
+
+
+ul {list-style:none outside none; margin-top:0; }
+
+ol.num_list {margin-left:20px;}
+
+
+
+.circle_list  li {background: url(../../images/icons/list/list_circle.png) no-repeat 0% 9px; 
+
+					padding: 0 0 0 10px;list-style: none;;
+
+	}
+
+
+
+.num_list_list  li {padding: 0 0 0 10px;list-style: decimal;
+
+	}
+
+
+
+.check_list li {background: url(../../images/icons/list/list_check.png) no-repeat 0% 7px; padding: 0 0 0 20px;line-height:23px;}
+
+
+
+
+
+/* Table
+
+====================================*/
+
+table.standard-table {
+
+	/*width:600px;*/
+
+	border-collapse: separate;
+
+	border-spacing: 0;
+
+	border:none;
+
+	margin-bottom: 15px;
+
+	-webkit-box-shadow:  0px 1px 1px 0px rgba(180, 180, 180, 0.1);
+
+	box-shadow:  0px 1px 1px 0px rgba(180, 180, 180, 0.1);
+
+}
+
+
+
+table.standard-table th {
+
+	border: 1px solid #dddddd;
+
+	border-right: none;
+
+	background-color: #fafafa;
+
+	text-align: left;
+
+	padding: 10px 10px;
+
+	color: #404040;
+
+	vertical-align: top;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+}
+
+
+
+table.standard-table td:last-child {
+
+	border-right: 1px solid #ddd;
+
+}
+
+
+
+table.standard-table th:last-child {
+
+	border-right: 1px solid #ddd;
+
+}
+
+
+
+table.standard-table td {
+
+	padding: 10px 15px;
+
+	border: #e0e0e0 1px solid;
+
+	border-top: #e0e0e0 1px solid;
+
+	border-right: #e0e0e0 1px solid;
+
+}
+
+
+
+table.standard-table td.blue { background:#808285; color:#fff; font-weight:bold;}
+
+	
+
+.title { text-align:center; background:#215F8B; color:#fff; font-weight:bold; font-size:18px;}
+
+.col_headers { text-align:left; background:#c0ac00; color:#fff; font-weight:bold; font-size:16px;}
+
+.col_title { text-align:left; background:#fff; color:#000; font-weight:bold; font-size:14px;}
+
+.bullets  li {background: url(../../images/icons/list/list_circle.png) no-repeat 0% 9px; 
+
+					padding: 0 0 0 10px;list-style: none;;
+
+	}
+
+ @media all and (max-width: 480px) {
+
+h1 {
+
+	font-size:95%;
+
+	padding:0;
+
+}
+
+p {
+
+	font-size:10px;
+
+	padding:0;
+
+}
+
+a {
+
+	color: #004b8d;
+
+}
+
+li {
+
+	margin-bottom:10px;
+
+	font-size:75%
+
+}
+
+ul {
+
+	line-height:18px;
+
+}
+
+}
+

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mobile Example</title>
+	<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css.css">
+	<script src="jquery.js"></script>
+	<script src="jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+
+<!-- first page  -->
+<div data-role="page"  id="homePage" data-add-back-btn="true">
+	
+	<!-- side panesl -->
+	<div data-role="panel" id="panelOne" data-display="overlay">
+	This is the first panel.
+	<a href="#panelTwo">next panel</a>
+	<p><a data-role="button" data-rel="close"> Close</a></p>
+	</div>
+
+	<div data-role="panel" id="panelTwo" data-display="overlay">
+	This is the second panel.
+	<a href="#panelThree">next panel</a>
+	<p><a data-role="button" data-rel="close"> Close</a></p>
+	</div>
+
+	<div data-role="panel" id="panelThree" data-display="overlay">
+	This is the third panel.
+	<a href="#panelFour">next panel</a>
+	<p><a data-role="button" data-rel="close"> Close</a></p>
+	</div>
+
+	<div data-role="panel" id="panelFour" data-display="overlay">
+	This is the fourth panel.
+	<a href="#panelFive">next panel</a>
+	<p><a data-role="button" data-rel="close"> Close</a></p>
+	</div>
+
+	<div data-role="panel" id="panelFive" data-display="overlay">
+	This is the Fifth panel.
+	<a href="#panelSix">next panel</a>
+	<p><a data-role="button" data-rel="close"> Close</a></p>
+	</div>
+
+	<div data-role="panel" id="panelSix" data-display="overlay">
+	This is the six panel.
+	<a href="#panelSeven">next panel</a>
+	<p><a data-role="button" data-rel="close"> Close</a></p>
+	</div>
+
+	<div data-role="panel" id="panelSeven" data-display="overlay">
+	This is the Seven panel.
+	<a href="#panelEight">next panel</a>
+	<p><a data-role="button" data-rel="close"> Close</a></p>
+	</div>
+
+	<div data-role="panel" id="panelEight" data-display="overlay">
+	This is the Eight panel.
+	<a href="#panelOne">next panel</a>
+	<p><a data-role="button" data-rel="close"> Close</a></p>
+	</div>
+
+	<div data-role="panel"  id="panelNav" data-display="overlay" data-position="left" >
+	This is the Nav panel.
+	<ul>
+		<li><a href="#panelOne">Panel One</a></li>
+		<li><a href="#panelTwo">Panel two</a></li>
+		<li><a href="#panelThree">Panel Three</a></li>
+		<li><a href="#panelFour">Panel Four</a></li>
+		<li><a href="#panelFive">Panel Five</a></li>
+		<li><a href="#panelSix">Panel Six</a></li>
+		<li><a href="#panelSeven">Panel Seven</a></li>
+		<li><a href="#panelEight">Panel Eight</a></li>
+	</ul>
+	<p><a data-role="button" data-rel="close"> Close</a></p>
+	</div>
+	<!-- /side panels -->
+
+
+<!-- header -->
+<!-- 	<div data-role="header">
+		<header>
+		<a href="#"><img src="http://placehold.it/75x35"></a>
+		<h1></h1>
+		<a href="#panelNav" data-icon="check">Menu</a>
+		</header>
+	</div> -->
+
+
+	<div data-role="header">
+	<header>
+	
+		<a href="#" class="ui-btn-left"><img src="http://placehold.it/75x35"></a>
+		<a href="#panelNav" class="ui-btn-right" ><img src="images/burger1.png"/></a>
+		<span class="ui-title" />
+	</header>
+		
+	</div>
+
+
+
+	<div data-role="content">
+	<!-- <a href="#leftPanel" data-role="button">Open My Panel</a> -->
+
+	<div class="ui-grid-a">
+			<div class="ui-block-a">
+				<div class="pan-one">
+				<a href="#panelOne"> <img src="images/pan-one.jpg"></a>
+				</div>
+			</div>
+
+			<div class="ui-block-b">
+				<div class="pan-two">
+				<a href="#panelTwo"> <img src="images/pan-two.jpg"></a>
+				</div>
+			</div>
+
+			<div class="ui-block-a">
+				<div class="pan-three">
+				<a href="#panelThree"> <img src="images/pan-three.jpg"></a>
+				</div>
+			</div>
+
+			<div class="ui-block-b">
+			 <div class="pan-four">
+				<a href="#panelFour"> <img src="images/pan-four.jpg"></a>
+				</div>
+			</div>
+
+			<div class="ui-block-a">
+				 <div class="pan-five">
+				<a href="#panelFive"> <img src="images/pan-one.jpg"></a>
+				</div>
+			</div>
+
+			<div class="ui-block-b">
+			  <div class="pan-six">
+				<a href="#panelSix"> <img src="images/pan-two.jpg"></a>
+				</div>
+			</div>
+
+			<div class="ui-block-a">
+			  <div class="pan-seven">
+				<a href="#panelSeven"> <img src="images/pan-three.jpg"></a>
+				</div>
+			</div>
+
+			<div class="ui-block-b">
+			 <div class="pan-eight">
+				<a href="#panelEight"> <img src="images/pan-four.jpg"></a>
+				</div>
+			</div>
+
+
+ 		</div>
+	</div>
+	<div data-role="footer" data-position="fixed" class="ui-bar">
+		<footer><p>ACME Benefits Wallet Card</p></footer>
+	</div>
+</div>
+<!-- end first page -->
+
+
+
+
+
+
+
+
+</body>
+</html>

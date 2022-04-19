@@ -1,0 +1,21 @@
+<!-- Footer Start -->
+<div id="footer">
+	<!-- Footer / Bottom -->
+		<div class="sixteen columns">
+
+        <ul class="social-icons_b">
+				<li class="share"><a href="mailto:?subject=2016 Health&amp;Benefits Enrollment">Share</a></li>
+				<li class="printpage"><a href="javascript:window.print();">Print page</a></li>
+                <li class="printsite"><a href="pdf/ACME_printsite.pdf" target="_blank">Print site</a></li>
+
+			</ul>
+			
+			<div class="clear"></div>
+			<div id="footer-bottom">
+				<a href="http://www.ibenefitcenter.com" target="_blank">www.ibenefitcenter.com</a> | 800-123-4567 (8 am to 8 pm ET) <span class="legal"><a href="#">Legal notices</a></span>
+			</div>
+		</div>
+
+	</div>
+
+<!-- Footer / End -->

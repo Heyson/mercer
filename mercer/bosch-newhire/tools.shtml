@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<title>Bosch - NEW HIRE - Tools</title>
+
+<!-- Mobile Specific
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/boxed.css" id="layout">
+<link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">
+
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<!-- scrollUp scripts -->
+<script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+<script>
+		/* scrollUp Minimum setup */
+		$(function () {
+			$.scrollUp();
+		});
+</script>
+<script src="js/custom.js"></script>
+<script src="js/selectnav.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/twitter.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/fancybox.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/isotope.js"></script>
+
+<!-- SEARCH
+================================================== -->
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<!--[if gte IE 7]>
+<style type="text/css">
+		.mobile-search { display:none;}
+</style>
+<![endif]-->
+
+<!-- syntax highlighter -->
+<script src="preview-assets/js/highlight.pack.js"></script>
+<script src="preview-assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+<script> hljs.initHighlightingOnLoad();</script>
+
+<!-- preview-related stylesheets -->
+<link href="preview-assets/css/reset.css" rel="stylesheet" type="text/css">
+<link href="preview-assets/css/grid.css" rel="stylesheet">
+<link href="preview-assets/css/smoothness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+<link href="preview-assets/css/github.css" rel="stylesheet">
+
+<!-- slider stylesheets -->
+<link href="royalslider/default/rs-default.css" rel="stylesheet">
+<link href="preview-assets/css/main.css" rel="stylesheet">
+<link href="preview-assets/css/sliderstyles.css" rel="stylesheet">
+
+<!-- scrollUp stylesheets -->
+<link id="scrollUpTheme" rel="stylesheet" href="css/themes/image.css">
+<link id="scrollUpTheme" rel="stylesheet" href="css/labs.css">
+
+<!-- Styles Switcher
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/switcher.css">
+<script src="js/switcher.js"></script>
+<style type="text/css">
+@media only screen and (min-width: 960px) {
+#portfolio-wrapper img {
+	min-height: 189px;
+}
+}
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+#portfolio-wrapper img {
+	min-height: 149px;
+}
+}
+</style>
+
+<!--Countdown Timer -->
+<script language="JavaScript">
+TargetDate = "02/19/2015";
+BackColor = "#none";
+ForeColor = "#000";
+CountActive = true;
+CountStepper = -1;
+LeadingZero = false;
+DisplayFormat = "%%D%% days";
+FinishMessage = "expired";
+</script>
+<!--End Countdown Timer -->
+
+<!-- For shadowbox -->
+<script type="text/javascript" src="shadowbox-3.0.3/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init({
+
+});
+</script>
+<!-- / For shadowbox -->
+
+<!-- Nav current state -->
+<script type="text/javascript" src="js/jquery-1.8.1.min"></script>
+<style>
+
+#navigation ul li a.selected {
+
+	background:#bfa934;
+
+	color: #FFF;
+
+}
+
+</style>
+<script>
+ $(function() {
+     var pgurl = window.location.href.substr(window.location.href
+.lastIndexOf("/")+1);
+     $("#navigation ul li a").each(function(){
+          if($(this).attr("href") == pgurl)
+          $(this).addClass("selected");
+     })
+});
+ </script>
+<!-- FANCYBOX -->
+<script type="text/javascript" src="js/fancybox/main.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+<!-- / FANCYBOX -->
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40232892-29']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- / Google Analytics -->
+</head>
+<body>
+
+<!-- Wrapper Start -->
+<div id="wrapper"> 
+  
+  <!-- Header
+================================================== -->
+  
+  <div class="container"> 
+    
+    <!-- Header -->
+    <div id="header"> 
+      <!--#include file="includes/logo.shtml" --> 
+      <!--#include file="includes/header_title.shtml" --> 
+    <!--#include file="includes/nav.shtml" --> 
+  </div>
+  
+  <!-- Content
+================================================== --> 
+  
+  <!-- 960 Container -->
+  <div class="container">
+    <div class=" sixteen column"> 
+      
+      <!-- Page Title -->
+      <div id="page-title"> 
+        <!-- The mobile-search include below is for the site search to appear below the nav drop-down on 
+      mobile devices only. It will not appear for desktop users. --> 
+        <!--#include file="includes/mobile-search.shtml" -->
+        <h2>Tools</h2>
+      </div>
+    </div>
+  </div>
+  <!-- 960 Container end --> 
+  
+  <!-- 960 Container Start -->
+  <div class="container">
+  <div class=" eleven columns">
+      <p style="margin-left:10px;">These easy-to-use online tools can help you understand your benefits,  make informed decisions, and pursue your wellness goals.</p>
+
+  <!-- 5 Column -->
+ <div class="five columns">
+			<div class="picture"><a class="fancybox fancybox.iframe" href="http://www.mercerhrs.com/widgets/flexible-spending-account/index.html"><img src="images/fsa-tools.png" width="460" height="290">
+	      <div class="image-overlay-zoom"></div></a></div>
+			<div id="alt2" class="item-description">
+				<h6>WHAT’S ELIGIBLE: FSA</h6>
+       <p class="sidebartext" id="sidebarheight">Find out what you can — and cannot — pay for with a  Flexible Spending Account.<u> </u><br>
+        <a class="fancybox fancybox.iframe" href="http://www.mercerhrs.com/widgets/fsa/index.html">Get started &raquo;</a>
+
+		  </div>
+		</div>
+        
+        
+     <!-- 5 Column -->      
+      <div class="five columns">
+			<div class="picture"><a class="fancybox fancybox.iframe" href="http://www.mercerhrs.com/widgets/health-savings-account/index.html"><img src="images/hsa-tools.png" width="460" height="290"><div class="image-overlay-zoom"></div></a></div>
+			<div id="alt2" class="item-description">
+				<h6>WHAT’S ELIGIBLE: HSA</h6>
+      <p class="sidebartext" id="sidebarheight">Do you know which medical expenses are eligible under a  Health Savings Account?
+        <a class="fancybox fancybox.iframe" href="http://www.mercerhrs.com/widgets/hsa/index.html">Try it now &raquo;</a>
+                
+		  </div>
+		</div>
+        
+    
+   <!-- 5 Column -->
+   <div class="five columns">
+ 	<div class="picture"><a class="fancybox fancybox.iframe" href="http://www.mercerhrs.com/widgets/cdhp-clues/"><img src="images/cdhp-tools.png" width="460" height="290"><div class="image-overlay-zoom"></div></a></div>
+			<div id="alt2" class="item-description">
+				<h6>THE CDHP CLUES</h6>
+      <p class="sidebartext" id="sidebarheight">Uncover  some key features of the CDHP. <br>
+        <a class="fancybox fancybox.iframe" href="http://www.mercerhrs.com/widgets/cdhp_clues/index.html">Take a look &raquo;</a>
+                
+              
+		  </div>
+		</div>
+    
+    
+    
+           
+
+        
+        
+        
+ </div> <!-- Eleven col END-->
+    
+   <div class="five columns">
+      
+      <div class="item-description" id="bluebox">
+        <h5>MORE TOOLS </h5>
+        <p>Visit the Bosch Benefits Web site at <a href="http://www.ibenefitcenter.com" target="_blank">www.ibenefitcenter.com</a> to access even more tools, including the Plan Comparison Tool,<em> </em>and Life Insurance, Long-Term Disability, and  Flexible Spending Account (FSA) Calculators.</p>
+      </div>
+      <div class="item-description" id="yellowbox">
+        <h5>NOW SHOWING</h5>
+        <p>Watch these quick videos to learn how these benefits work!</p>
+        <ul>
+          <li><a class="vimeo" href="https://goo.gl/vh0JqF?iframe=true&width=960&height=540&autoplay=1">CDHP &raquo;</a></li>
+          <li><a class="vimeo" href="https://goo.gl/mu9zM3?iframe=true&width=960&height=540&autoplay=1">HSA &raquo;</a></li>
+          <li><a class="vimeo" href="https://goo.gl/4nqeiV?iframe=true&width=960&height=540&autoplay=1">FSA &raquo;</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end one third --> 
+    
+  </div>
+  <!-- 960 Container end --> 
+  <!-- Footer --> 
+  <!--#include file="includes/footer_i.shtml" --> 
+  
+</div>
+<!-- Wrapper / End --> 
+<script type="text/javascript">
+$(document).ready(function() {
+ $(".vimeo").fancybox({
+  width: 960,
+  height: 540,
+  type: 'iframe',
+  fitToView : false
+ });
+});
+</script>
+</body>
+</html>

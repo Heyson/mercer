@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<title>Bosch - NEW HIRE - Other Benefits</title>
+
+<!-- Mobile Specific
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- FOR PRINT VERSION -->
+<link rel="stylesheet" type"text/css" href="css/print.css" media="print">
+<!-- / FOR PRINT VERSION -->
+<link rel="stylesheet" type="text/css" href="css/boxed.css" id="layout">
+<link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">
+
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<!-- scrollUp scripts -->
+<script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+<script>
+		/* scrollUp Minimum setup */
+		$(function () {
+			$.scrollUp();
+		});
+</script>
+<script src="js/custom.js"></script>
+<script src="js/selectnav.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/twitter.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/fancybox.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/isotope.js"></script>
+
+<!-- SEARCH
+================================================== -->
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<!--[if gte IE 7]>
+<style type="text/css">
+		.mobile-search { display:none;}
+</style>
+<![endif]-->
+
+<!-- syntax highlighter -->
+<script src="preview-assets/js/highlight.pack.js"></script>
+<script src="preview-assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+<script> hljs.initHighlightingOnLoad();</script>
+
+<!-- preview-related stylesheets -->
+<link href="preview-assets/css/reset.css" rel="stylesheet" type="text/css">
+<link href="preview-assets/css/grid.css" rel="stylesheet">
+<link href="preview-assets/css/smoothness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+<link href="preview-assets/css/github.css" rel="stylesheet">
+
+<!-- slider stylesheets -->
+<link href="royalslider/default/rs-default.css" rel="stylesheet">
+<link href="preview-assets/css/main.css" rel="stylesheet">
+<link href="preview-assets/css/sliderstyles.css" rel="stylesheet">
+
+<!-- scrollUp stylesheets -->
+<link id="scrollUpTheme" rel="stylesheet" href="css/themes/image.css">
+<link id="scrollUpTheme" rel="stylesheet" href="css/labs.css">
+
+<!-- Styles Switcher
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/switcher.css">
+<script src="js/switcher.js"></script>
+<style type="text/css">
+@media only screen and (min-width: 960px) {
+#portfolio-wrapper img {
+	min-height: 189px;
+}
+}
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+#portfolio-wrapper img {
+	min-height: 149px;
+}
+}
+</style>
+
+<!--Countdown Timer -->
+<script language="JavaScript">
+TargetDate = "02/19/2015";
+BackColor = "#none";
+ForeColor = "#000";
+CountActive = true;
+CountStepper = -1;
+LeadingZero = false;
+DisplayFormat = "%%D%% days";
+FinishMessage = "expired";
+</script>
+<!--End Countdown Timer -->
+
+<!-- For shadowbox -->
+<script type="text/javascript" src="shadowbox-3.0.3/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init({
+
+});
+</script>
+<!-- / For shadowbox -->
+
+<!-- Nav current state -->
+<script type="text/javascript" src="js/jquery-1.8.1.min"></script>
+<style>
+
+#navigation ul li a.selected {
+
+	background:#bfa934;
+
+	color: #FFF;
+
+}
+
+</style>
+<script>
+ $(function() {
+     var pgurl = window.location.href.substr(window.location.href
+.lastIndexOf("/")+1);
+     $("#navigation ul li a").each(function(){
+          if($(this).attr("href") == pgurl)
+          $(this).addClass("selected");
+     })
+});
+ </script>
+<!-- FANCYBOX -->
+<script type="text/javascript" src="js/fancybox/main.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+<!-- / FANCYBOX -->
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40232892-29']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- / Google Analytics -->
+</head>
+<body>
+
+<!-- Wrapper Start -->
+<div id="wrapper"> 
+  
+  <!-- Header
+================================================== -->
+  
+  <div class="container"> 
+    
+    <!-- Header -->
+    <div id="header"> 
+      <!--#include file="includes/logo.shtml" --> 
+      <!--#include file="includes/header_title.shtml" --> 
+    <!--#include file="includes/nav.shtml" --> 
+  </div>
+  
+  <!-- Content
+================================================== --> 
+  
+  <!-- 960 Container -->
+  <div class="container">
+    <div class=" sixteen column"> 
+      
+      <!-- Page Title -->
+      <div id="page-title"> 
+        <!-- The mobile-search include below is for the site search to appear below the nav drop-down on 
+      mobile devices only. It will not appear for desktop users. --> 
+        <!--#include file="includes/mobile-search.shtml" -->
+        <h2>Other benefits</h2>
+        <p>Bosch provides  these additional insurance benefits to help protect your financial security.</p>
+      </div>
+    </div>
+  </div>
+  <!-- 960 Container end --> 
+  
+  <!-- 960 Container Start -->
+  <div class="container">
+    <div class="two-thirds column"> 
+      <!-- Accordion #1 --> 
+      <span class="acc-trigger"><a href="#">LIFE INSURANCE</a></span>
+      <div class="acc-container" style="width:620px;">
+        <div class="content">
+          <p>Bosch automatically provides basic associate life insurance at no cost to  you. Your benefit is equal to your annual base pay rounded up to  the next $1,000 and multiplied by two. For example, if your pay is $45,300, your annual base coverage is $46,000 times two, or $92,000. </p>
+          
+          
+ <p>You may reduce the level of your basic associate life insurance to  as low as one times your annual base pay, in which case you will receive a  credit that can be applied to the cost of your other benefits.</p>         
+          
+          <p>You may also purchase additional associate life insurance coverage up to a  maximum of eight times your annual base pay (rounded up to the next $1,000),  up to a maximum of $2 million. In addition to choosing this additional,  portable life insurance for yourself, you may also elect the following optional  coverage for your family:</p>
+          <ul class="circle_list">
+            <li><strong>Spouse/domestic  partner life insurance (up to age 70):</strong> Coverage is available at the  following levels: $10,000, $25,000, $50,000, $75,000, or $100,000. Note that  your spouse/domestic partner life insurance coverage level can&rsquo;t exceed the  level of your combined basic and optional life insurance coverage.</li>
+            <li><strong>Child  life insurance:</strong> Coverage is available for your dependent children  age six months to age 26 at the following  levels: $5,000 and $10,000 per child. For children age one day to six months,  the plan pays a maximum of $1,000 per child in the event of death.</li>
+          </ul>
+          
+          
+          <p><strong>Evidence of  Insurability (EOI)</strong><br>
+            If you elect to increase the level  of your life insurance benefit for yourself or your spouse/domestic partner, you  may need to provide proof of good health, also known as Evidence of  Insurability (EOI). <a class="fancybox fancybox.iframe" href="popups/eoi.html">Learn more</a>.</p>
+          <p><strong>Annual base pay</strong><br>
+          Coverage is based on your pay in effect on the January 1 prior to the beginning of the plan year. Base pay includes your salary, any elective deferred compensation and pre-tax premiums, FSA contributions, and elective 401(k) plan contributions. Base pay does not include any overtime pay, bonuses, shift differential pay, relocation pay, or employer-paid retirement or fringe benefits not normally included in cash compensation.</p>
+          <p>For sales associates earning commission, any commission sales wages paid in the last 24-month period will be averaged and annualized for this period. The calculated annualized commission amount will then be added to your benefit salary affecting benefit coverage and contributions. This &quot;look back&quot; will be calculated each January 1 with the benefit commission wage used for the entire plan year. For purposes of determining your coverage, your annual base pay will be rounded to the nearest thousand.          </p>
+        </div>
+      </div>
+      
+      <!-- Accordion #2 --> 
+      <span class="acc-trigger"><a href="#">Accidental Death & Dismemberment (AD&D) insurance</a></span>
+      <div class="acc-container">
+        <div class="content">
+          <p>AD&amp;D insurance provides coverage if you die accidentally or become  seriously injured. Bosch automatically provides basic AD&amp;D (associate only)  insurance equal to two times your annual base pay rounded up to the next $1,000 and multiplied by two, at no cost to you. </p>
+          
+  <p>You may reduce the level of your basic AD&amp;D (associate only) coverage to as low as  one times your annual base pay, in which case you will receive a credit that  can be applied to the cost of your other benefits.</p>          
+          
+ <p>You also have the  opportunity to elect additional coverage up to eight times your annual base  pay, up to a maximum of $2 million.</p>         
+          
+          <p>Besides choosing additional AD&amp;D coverage for yourself, you may also  elect the following forms of optional coverage for your family:</p>
+          <ul class="circle_list">
+            <li><strong>Spouse/domestic  partner:</strong> Benefit would equal 60% of associate AD&amp;D  coverage.</li>
+            <li><strong>Child(ren):</strong> Benefit would equal 15% of associate AD&amp;D coverage.  Coverage is available for your dependent children age six months to age 26.</li>
+            <li><strong>Family:</strong> Benefit would equal 50% of associate AD&amp;D coverage for spouse/domestic  partner; 10% for children.</li>
+          </ul>
+        
+        </div>
+      </div>
+      
+      <!-- Accordion #3 --> 
+      <span class="acc-trigger"><a href="#">Business travel accident insurance </a></span>
+      <div class="acc-container">
+        <div class="content">
+          <p>If you die or experience certain covered injuries while traveling on  Company business, Bosch will automatically provide you with a business travel  accident insurance benefit equal to four times your annual base pay (up to a maximum  of $1,000,000). This benefit would be paid in addition to any associate life  and AD&amp;D benefits.</p>
+        </div>
+      </div>
+      
+      <!-- Accordion #4 --> 
+      <span class="acc-trigger"><a href="#">Long-term disability (LTD) insurance</a></span>
+      <div class="acc-container">
+        <div class="content">
+          <p>LTD protects a portion of your income if illness or injury prevents you  from working for more than 180 days. Bosch automatically provides basic LTD  coverage to replace 50% of your monthly base pay at no cost to you. In addition  to the basic benefit, you have the option to purchase additional LTD coverage  for a total income replacement benefit of 65% of your monthly base pay. The  combined maximum monthly benefit for basic and optional LTD coverage is  $18,000.</p>
+          
+          <p><strong>Evidence of  Insurability</strong><br>
+            We require EOI if you make a late request for the Long-Term Disability  Insurance Buy Up Plan (meaning that you made the request after first becoming  eligible for the benefit).</p>
+          <p><strong>Annual base pay</strong><br>
+          Coverage is based on your pay in effect on the January 1 prior to the beginning of the plan year. Base pay includes your salary, any elective deferred compensation and pre-tax premiums, FSA contributions, and elective 401(k) plan contributions. Base pay does not include any overtime pay, bonuses, shift differential pay, relocation pay, or employer-paid retirement or fringe benefits not normally included in cash compensation.</p>
+          <p>For sales associates earning commission, any commission sales wages paid in the last 24-month period will be averaged and annualized for this period. The calculated annualized commission amount will then be added to your benefit salary affecting benefit coverage and contributions. This &quot;look back&quot; will be calculated each January 1 with the benefit commission wage used for the entire plan year. For purposes of determining your coverage, your annual base pay will be rounded to the nearest thousand.</p>
+        </div>
+      </div>
+            <!-- Accordion #5 --> 
+      <span class="acc-trigger"><a href="#">Employee Assistance Program (EAP) </a></span>
+      <div class="acc-container">
+        <div class="content">
+          <p>You and your  dependents have access to Bosch&rsquo;s confidential Employee Assistance Program  (EAP), managed by CIGNA Behavioral Health — and it&rsquo;s available at no cost to  you. If you are struggling with a personal concern, crisis, or even an everyday  issue, the EAP can be an invaluable resource. You can get assistance with legal  questions or concerns, marital or family conflicts, childcare and senior care,  financial problems, alcohol/drug issues, stress and emotional issues, and much  more. To learn more, log on to <a href="http://www.cignabehavioral.com" target="_blank">www.cignabehavioral.com</a>. </p>
+        </div>
+      </div>
+      
+      
+      
+    </div>
+    
+    <!-- end two thirds -->
+    
+    <div class="one-third column">
+      <div class="item-description" id="bluebox">
+        <h5>HAVE YOU NAMED A BENEFICIARY?</h5>
+        <p>It's important to designate a  beneficiary for your insurance benefits and to keep that information  up-to-date. Even if you waive elective coverage, you must designate a  beneficiary for the Company-paid plans. You can designate a beneficiary online  at <a href="http://www.ibenefitcenter.com" target="_blank">www.ibenefitcenter.com</a> by clicking  on the &ldquo;Beneficiaries&rdquo; link in the &ldquo;myHealth&rdquo; section of the Web site.</p>
+      </div>
+      <div class="item-description" id="greybox">
+        <h5>LEARN MORE</h5>
+        <p>For more information about your  life and disability insurance coverage options, log on to the Bosch Benefits  Web site at <a href="http://www.ibenefitcenter.com" target="_blank">www.ibenefitcenter.com</a>. </p>
+      </div>
+    </div>
+    <!-- end one third --> 
+    
+  </div>
+  <!-- 960 Container end --> 
+  <!-- Footer --> 
+  <!--#include file="includes/footer_i.shtml" --> 
+  
+</div>
+<!-- Wrapper / End -->
+
+</body>
+</html>

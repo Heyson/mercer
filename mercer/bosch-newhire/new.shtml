@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<title>Bosch - NEW HIRE - New for 2015</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<!-- Mobile Specific
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/boxed.css" id="layout">
+<link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/selectnav.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/twitter.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/fancybox.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/isotope.js"></script>
+<!-- scrollUp scripts -->
+<script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+<script>
+		/* scrollUp Minimum setup */
+		$(function () {
+			$.scrollUp();
+		});
+</script>
+<!-- SEARCH
+================================================== -->
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+<!--[if gte IE 7]>
+<style type="text/css">
+		.mobile-search { display:none;}
+</style>
+<![endif]-->
+<!-- syntax highlighter -->
+<script src="preview-assets/js/highlight.pack.js"></script>
+<script src="preview-assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+<script> hljs.initHighlightingOnLoad();</script>
+<!-- preview-related stylesheets -->
+<link href="preview-assets/css/reset.css" rel="stylesheet" type="text/css">
+<link href="preview-assets/css/grid.css" rel="stylesheet">
+<link href="preview-assets/css/smoothness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+<link href="preview-assets/css/github.css" rel="stylesheet">
+<!-- slider stylesheets -->
+<link href="royalslider/default/rs-default.css" rel="stylesheet">
+<link href="preview-assets/css/main.css" rel="stylesheet">
+<link href="preview-assets/css/sliderstyles.css" rel="stylesheet">
+<!-- scrollUp stylesheets -->
+<link id="scrollUpTheme" rel="stylesheet" href="css/themes/image.css">
+<link id="scrollUpTheme" rel="stylesheet" href="css/labs.css">
+<!-- Styles Switcher
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/switcher.css">
+<script src="js/switcher.js"></script>
+<style type="text/css">
+@media only screen and (min-width: 960px) {
+#portfolio-wrapper img {
+	min-height: 189px;
+}
+}
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+#portfolio-wrapper img {
+	min-height: 149px;
+}
+}
+</style>
+<!--Countdown Timer -->
+<script language="JavaScript">
+TargetDate = "02/19/2015";
+BackColor = "#none";
+ForeColor = "#000";
+CountActive = true;
+CountStepper = -1;
+LeadingZero = false;
+DisplayFormat = "%%D%% days";
+FinishMessage = "expired";
+</script>
+<!--End Countdown Timer -->
+<!-- For shadowbox -->
+<script type="text/javascript" src="shadowbox-3.0.3/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init({
+
+});
+</script>
+<!-- / For shadowbox -->
+<!-- Nav current state -->
+<script type="text/javascript" src="js/jquery-1.8.1.min"></script>
+<style>
+
+#navigation ul li a.selected {
+
+	background:#bfa934;
+
+	color: #FFF;
+
+}
+
+</style>
+<script>
+ $(function() {
+     var pgurl = window.location.href.substr(window.location.href
+.lastIndexOf("/")+1);
+     $("#navigation ul li a").each(function(){
+          if($(this).attr("href") == pgurl)
+          $(this).addClass("selected");
+     })
+});
+ </script>
+<!-- FANCYBOX -->
+<script type="text/javascript" src="js/fancybox/main.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+<!-- / FANCYBOX -->
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40232892-29']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- / Google Analytics -->
+</head>
+<body>
+<!-- Wrapper Start -->
+<div id="wrapper"> 
+  <!-- Header
+================================================== -->
+  <div class="container"> 
+    <!-- Header -->
+    <div id="header"> 
+      <!--#include file="includes/logo.shtml" --> 
+      <!--#include file="includes/header_title.shtml" --> 
+    <!--#include file="includes/nav.shtml" --> 
+  </div>
+  <!-- Content
+================================================== --> 
+  <!-- 960 Container -->
+  <div class="container">
+    <div class=" sixteen column"> 
+      <!-- Page Title -->
+      <div id="page-title"> 
+        <!-- The mobile-search include below is for the site search to appear below the nav drop-down on 
+      mobile devices only. It will not appear for desktop users. --> 
+        <!--#include file="includes/mobile-search.shtml" -->
+        <h2>New for 2015</h2>
+      </div>
+    </div>
+  </div>
+  <!-- 960 Container end --> 
+  <!-- 960 Container Start -->
+  <div class="container">
+    <div class="two-thirds column" style="margin-right:0px; margin-left:20px" id="twothirds_mobile">
+            <p>We encourage you to carefully review what’s changing to help you select the most appropriate coverage for 2015.</p>
+
+      <!-- Accordions
+================================================== --> 
+      <!-- Accordion #1 --> 
+      
+      <span class="acc-trigger"><a href="#">What’s new beginning January 1, 2015</a></span>
+      <div class="acc-container" style="width:620px;">
+        <div class="content">
+          <p><strong>Higher  Health Savings Account (HSA) contribution limits: </strong> In the 2015 calendar year, the maximum HSA contribution from you and Bosch combined is limited to $3,350 per person (up from $3,300 in 2014) and $6,650 per family (up from $6,550 in 2014). If you’re age 55 or older, you may contribute an additional $1,000 annually.</p>
+         <!-- <p><strong>Health  care reform changes:</strong> While parts of the Affordable Care Act have  been implemented each year since it was passed in 2010, there are some  important changes taking effect in 2014: </p>
+          <ul class="circle_list">
+            <li><strong>Individual  mandate</strong> &ndash; Beginning in 2014, all Americans (with a few  exceptions) are required to have basic health insurance coverage or pay a  penalty when filing their federal income tax returns. <em><strong>Enrolling in a health plan offered through Bosch will meet this  requirement.</strong></em> </li>
+            <li><strong>Health  insurance marketplace</strong> &ndash; Qualified individuals  may choose to purchase health insurance through the public health insurance  marketplace. The primary intent of the marketplace is to help people who do not  have access to affordable insurance. At Bosch, you are offered comprehensive,  affordable insurance that provides better coverage at a lower cost, so  selecting one of the Company&rsquo;s medical plans is probably a better option for  you than buying through the marketplace. </li>
+            <li><strong>Tax  credits</strong> &ndash; You may have heard about tax credits and  other types of financial assistance the federal government will be providing to  help individuals pay for insurance purchased through the marketplace. This  assistance is only available to those who meet very specific criteria,  including income requirements. For more information, visit <a href="http://www.HealthCare.gov" target="_blank">www.healthcare.gov</a>.</li>
+            <li><strong>No annual  dollar limits</strong> &ndash; Health plans are now  prohibited from imposing annual dollar limits on essential benefits, like  hospital stays. These limits had already been removed from Bosch&rsquo;s medical  plans, so there will be no new impact to you for 2014. </li>
+            <li><strong>Pre-existing  conditions</strong> &ndash;  Insurance companies are now  prohibited from refusing to provide coverage or renew policies because of an  individual's pre-existing medical conditions. Bosch&rsquo;s medical plans did not  have this exclusion before, so there will be no new impact to you for 2014.</li>
+          </ul>-->
+        </div>
+      </div>
+      <!-- Accordion #2 --> 
+      <span class="acc-trigger"><a href="#">What’s new beginning April 1, 2015</a></span>
+      <div class="acc-container">
+        <div class="content">
+          <p><strong>Increased medical plan annual deductibles:</strong> The Consumer Driven Health Plan (CDHP) 80 annual deductible will be $1,900 individual/$3,800 family (up from $1,850 individual/$3,650 family) and the CDHP 90 annual deductible will be $1,300 individual/$2,600 family (up from $1,250 individual/$2,500 family).</p>
+ <p><strong>Higher FSA contribution limit:</strong> The maximum you can contribute to a Health Care FSA (any Bosch associate who does not have a Health Savings Account (HSA) is eligible) or a Limited Purpose FSA (any Bosch associate enrolled in a CDHP who also has an HSA is eligible) will increase from $2,500 to $2,550. The minimum you can contribute remains $120.</p>
+ <p><strong>Changes to dependent eligibility:</strong> Your children will be eligible for medical, dental, vision, life insurance, and accidental death & dismemberment (AD&D) insurance coverage until the end of the month in which they turn age 26.
+</p>
+        </div>
+      </div>
+      
+      <!-- End Accordions
+================================================== --> 
+    </div>
+    <!-- end two thirds -->
+    <div class="one-third column">
+      <div class="item-description" id="bluebox">
+        <h5>Decode it!</h5>
+        <p><a href="http://www.mercerhrs.com/microsite/health_care_decoder/splash/bosch.html" target="_blank">Health Care Decoder</a> makes it easy to understand health care reform, use your benefits wisely, and make healthy decisions. </p>
+      </div>
+      <div class="item-description" id="greybox">
+        <h5>MORE INFORMATION</h5>
+        <p>You have access to a Summary of Benefits and Coverage (SBC) for each of your medical plan options. These documents provide detailed information about coverage and costs to help you compare plans and make informed decisions. Access SBCs for your plan options by visiting the Bosch Benefits Web site at  <a href="http://www.ibenefitcenter.com" target="_blank">www.ibenefitcenter.com</a>, visiting the “Plan Information” page of the “Resource Center,” and clicking “Health.” You can also call the Bosch Benefits Center at 800-207-9012 to request printed copies.</p>
+      </div>
+    </div>
+    <!-- end one third --> 
+  </div> 
+  <!-- 960 Container end --> 
+  <!-- Footer --> 
+  <!--#include file="includes/footer_i.shtml" --> 
+</div>
+<!-- Wrapper / End -->
+</body>
+</html>

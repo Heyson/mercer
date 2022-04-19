@@ -1,0 +1,23 @@
+<!-- SEARCH FUNCTIONALITY FOR MOBILE -->
+
+      <div class="mobile-search">
+
+      <form action="search_results.shtml" style="padding-bottom:50px;">
+
+    <div style="float: left;">
+
+      <input type="text" name="q" id="tipue_search_input" placeholder="Search">
+
+    </div>
+
+    <div style="float: left; margin-left: 3px; margin-top:-6px;">
+
+      <input type="button" id="tipue_search_button" onclick="this.form.submit();">
+
+    </div>
+
+  </form>
+
+  </div>
+
+  <!-- / SEARCH FUNCTIONALITY FOR MOBILE -->
