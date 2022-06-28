@@ -74,7 +74,7 @@ label {
 }
 
 #checkbox-container, #feature-container {
-  width: 50%;
+  width: auto;
   max-width: 430px;
   display: inline-block;
   height: 100%;
@@ -83,6 +83,10 @@ label {
 
 input[type=checkbox] {
   width: 100%;
+}
+
+input, textarea, option {
+  background-color: rgb(208, 249, 243);
 }
 
 input,
