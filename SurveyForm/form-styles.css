@@ -48,6 +48,7 @@ h1 {
   font-weight: 400;
   line-height: 1.2;
   padding-top: 20px;
+  padding-left: 40px;
 }
 
 legend { font-weight: 400;
@@ -78,7 +79,7 @@ label {
   max-width: 430px;
   display: inline-block;
   height: 100%;
-  max-height: 500px;
+  max-height: 530px;
 }
 
 input[type=checkbox] {
