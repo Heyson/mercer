@@ -22,7 +22,6 @@ body {
   margin: 0;
 }
 
-/* mobile friendly alternative to using background-attachment: fixed */
 body::before {
   content: '';
   position: fixed;
@@ -31,12 +30,7 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  /*background: var(--color-darkblue);*/
-  background-image: linear-gradient(
-      115deg,
-      rgba(58, 158, 151, 0.8),
-      rgba(175, 252, 229, 0.7)
-    ),
+  background-image: 
     url(survey-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,10 +67,10 @@ p {
 }
 
 label {
-  display: flex;
+  display: block;
   align-items: center;
   font-size: 1.125rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 15px;
 }
 
 #checkbox-container, #feature-container {
