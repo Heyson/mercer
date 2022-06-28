@@ -44,7 +44,10 @@ body::before {
 }
 
 fieldset {
-  margin: 15px;
+  margin: 20px 15px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 0.2rem rgba(163, 36, 144, 0.25);
+  border: 2px solid rgba(175, 252, 229, 0.7);
 }
 
 h1 {
@@ -55,6 +58,7 @@ h1 {
 
 legend { font-weight: 400;
   font-size: 1.5em;
+  margin-bottom: 20px;
 }
 
 p {
@@ -75,6 +79,18 @@ label {
   margin-bottom: 0.5rem;
 }
 
+#checkbox-container, #feature-container {
+  width: 50%;
+  max-width: 430px;
+  display: inline-block;
+  height: 100%;
+  max-height: 500px;
+}
+
+input[type=checkbox] {
+  width: 100%;
+}
+
 input,
 button,
 select,
@@ -83,6 +99,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  border-radius: 10px;
 }
 
 button {
