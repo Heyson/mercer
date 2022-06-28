@@ -42,6 +42,7 @@ fieldset {
   border-radius: 10px;
   box-shadow: 10px 10px 10px 0.2rem rgba(163, 36, 144, 0.25);
   border: 2px solid rgba(175, 252, 229, 0.7);
+  background-color:rgba(27, 27, 50, 0.6);
 }
 
 h1 {
@@ -74,6 +75,10 @@ label {
   margin-bottom: 15px;
 }
 
+h1, p {
+  font-family: 'Lobster', cursive;
+}
+
 #checkbox-container, #feature-container {
   width: auto;
   max-width: 430px;
@@ -88,6 +93,11 @@ input[type=checkbox] {
 
 input, textarea, option {
   background-color: rgb(208, 249, 243);
+}
+
+option, textarea {
+  width: 100%;
+  min-width: 325px;
 }
 
 input,
