@@ -12,16 +12,18 @@
   
     <p id="description">Thank you for taking the time to help us improve by taking this survey.</p>
     <fieldset>
-    <label id="name-label">Name</lable> 
-    <input id="name" type="text" placeholder="Enter your name" autofocus required tabindex="0">
-    <label id="email-label">Email</lable>
+    <label id="name-label">First Name</label> 
+    <input id="first-name" type="text" placeholder="Enter your name" autofocus required tabindex="0">
+    <label id="name-label">Last Name</label> 
+    <input id="last-name" type="text" placeholder="Enter your name" autofocus required tabindex="0">
+    <label id="email-label">Email</label>
     <input id="email" type="email" placeholder="Enter your Email"required  tabindex="1">
     </fieldset>
     <fieldset>
         <legend>Whats your Birthdate</legend>
     <label for="birthdaytime">Birthday (date and time):</label>
   <input type="datetime-local" id="birthdaytime" name="birthdaytime"  tabindex="2">
-    <label id="number-label">Pick a number bewtween 1 and 100</lable>
+    <label id="number-label">Pick a number bewtween 1 and 100</label>
     <input id="number" type="number" min="1" max="100" placeholder="Pick a Number" required  tabindex="3">
   </fieldset>
   <fieldset>
@@ -30,7 +32,7 @@
   </fieldset>
 
   <fieldset>
-      <legend id="email-label">Which option best describes your current role?</legend>
+      <legend>Which option best describes your current role?</legend>
  <select id="dropdown" size="3" required  tabindex="5">
    <option selected disabled value >Select current role</option>
    <option value="student">Student</option>
@@ -40,11 +42,11 @@
    <option value="other">Other</option>
  </select>
   </fieldset>
-  <fieldset>
-    <legend>Would you recommend this survey to a friend?</legend>
-    <lable><input name="user-recommend" value="definitely" type="radio" checked> Definitely</lable>
-    <lable><input name="user-recommend" value="maybe"type="radio" > Maybe</lable>
-    <lable><input name="user-recommend" value="not-sure"type="radio"> Not sure</lable>
+  <fieldset id="recommend-container">
+    <legend >Would you recommend this survey to a friend?</legend>
+    <label><input name="user-recommend" value="definitely" type="radio" checked> Definitely</label>
+    <label><input name="user-recommend" value="maybe"type="radio" > Maybe</label>
+    <label><input name="user-recommend" value="not-sure"type="radio"> Not sure</label>
   </fieldset>
   <fieldset id="feature-container">
     <legend>What is your favorite feature of this survey?</legend>
@@ -58,20 +60,21 @@
   </fieldset>
   <fieldset id="checkbox-container">
     <legend>What would you like to see improved? (Check all that apply)</legend>
-    <lable><input name="user-prefer" value="frontend" type="checkbox" > Front-end Projects</lable>
-    <lable><input name="user-prefer" value="backend"type="checkbox" >Back-end Projects</lable>
-    <lable><input name="user-prefer" value="data"type="checkbox">Data Visualization</lable>
-    <lable><input name="user-prefer" value="challenges" type="checkbox" >Challenges</lable>
-    <lable><input name="user-prefer" value="opensource" type="checkbox" >Open Source Community</lable>
-    <lable><input name="user-prefer" value="gitter" type="checkbox" >Gitter help rooms</lable>
-    <lable><input name="user-prefer" value="videos" type="checkbox" >Videos</lable>
-    <lable><input name="user-prefer" value="meetups" type="checkbox" >City Meetups</lable>
-    <lable><input name="user-prefer" value="wiki" type="checkbox" >Wiki</lable>
-    <lable><input name="user-prefer" value="forum" type="checkbox" >Forum</lable>
-    <lable><input name="user-prefer" value="courses" type="checkbox" >Additional Courses</lable>
+    <input name="user-prefer" value="frontend" type="checkbox" > <label>Front-end Projects</label><br>
+    <input name="user-prefer" value="backend"type="checkbox" ><label>Back-end Projects</label><br>
+    <input name="user-prefer" value="data"type="checkbox"><label>Data Visualization</label><br>
+    <input name="user-prefer" value="challenges" type="checkbox" ><label>Challenges</label><br>
+    <input name="user-prefer" value="opensource" type="checkbox" ><label>Open Source Community</label><br>
+    <input name="user-prefer" value="gitter" type="checkbox" ><label>Gitter help rooms</label><br>
+    <input name="user-prefer" value="videos" type="checkbox" ><label>Videos</label><br>
+    <input name="user-prefer" value="meetups" type="checkbox" ><label>City Meetups</label><br>
+    <input name="user-prefer" value="wiki" type="checkbox" ><label>Wiki</label><br>
+    <input name="user-prefer" value="forum" type="checkbox" ><label>Forum</label><br>
+    <input name="user-prefer" value="courses" type="checkbox" ><label>Additional Courses</label><br>
   </fieldset>
   <fieldset>
-      <legend>What is browser of choice?</legend>
+      <legend>What is your browser of choice?</legend>
+      <p>please select your favorite browser</p>
     <input list="browsers" name="browser">
     <datalist id="browsers">
       <option value="Internet Explorer">

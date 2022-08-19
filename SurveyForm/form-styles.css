@@ -20,6 +20,7 @@ body {
   line-height: 1.4;
   color: var(--color-white);
   margin: 0;
+  height: auto;
 }
 
 body::before {
@@ -39,9 +40,10 @@ body::before {
 
 fieldset {
   margin: 20px 15px;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px 0.2rem rgba(163, 36, 144, 0.25);
-  border: 2px solid rgba(175, 252, 229, 0.7);
+  border: 1px solid rgba(175, 252, 229, 0.7);
   background-color:rgba(27, 27, 50, 0.6);
 }
 
@@ -57,6 +59,22 @@ legend { font-weight: 400;
   margin-bottom: 20px;
 }
 
+@media (max-width: 576px) {
+  legend { font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #first-name, #last-name, #email {
+    width: 50%;
+  }
+}
+
+#first-name, #last-name, #email {
+  max-width: 200px;
+}
+
 p {
   font-size: 1.125rem;
 }
@@ -69,26 +87,53 @@ p {
 }
 
 label {
-  display: block;
   align-items: center;
   font-size: 1.125rem;
   margin-bottom: 15px;
+  margin-top: 7px;
 }
 
-h1, p {
+#name-label, #email-label {
+  
+  width: 30%;
+  margin: 0px 10px;
+  padding: 10px 0px;
+}
+
+@media (max-width: 576px) {
+  #name-label, #email-label {
+    width: 30%;
+    display:inline-block;
+  }
+}
+
+
+@media (max-width: 576px) {
+  label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+}
+
+h1 {
   font-family: 'Lobster', cursive;
 }
 
-#checkbox-container, #feature-container {
+#checkbox-container, #feature-container, #recommend-container {
   width: auto;
   max-width: 430px;
   display: inline-block;
-  height: 100%;
   max-height: 530px;
 }
 
+#recommend-container {
+  min-height: 185px;
+}
+
 input[type=checkbox] {
-  width: 100%;
+
+width: 15px;
+margin: 0 auto;
 }
 
 input, textarea, option {
@@ -100,6 +145,29 @@ option, textarea {
   min-width: 325px;
 }
 
+@media (max-width: 576px) {
+  option, textarea {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  fieldset {
+   height: auto;
+   max-height: 200px;
+  }
+
+  #checkbox-container {
+    max-height: 500px;
+  }
+
+   #feature-container {
+    height: auto;
+    max-height: 530px;
+  }
+}
+
+
+
 input,
 button,
 select,
@@ -108,7 +176,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 button {
@@ -191,8 +259,7 @@ form {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
-.input-radio,
-.input-checkbox {
+.input-radio {
   display: inline-block;
   margin-right: 0.625rem;
   min-height: 1.25rem;
