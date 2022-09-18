@@ -1,0 +1,67 @@
+body {
+    background-color: #f3f3f3;
+    font-family: "Arial. Helvetica", sans-serif;
+  }
+  header {
+    margin: 0 auto;
+    text-align: center;
+   
+  }
+  
+  figure {
+    background-color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #image {
+    max-width:100%;
+    height: auto;
+    max-height: 500px;
+    background-size: contain;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  figure figcaption {
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  
+  #tribute-info {
+    margin: 0 auto;
+    width:70%;
+  }
+  
+  #tribute-info ul > li {
+    margin-top: 50px;
+  }
+  
+  #tribute-info p {
+    margin: 20px 10px;
+  }
+  
+  #tribute-link {
+    text-decoration: none;
+    color: #444;
+  }
+  
+  #tribute-link:visited {
+    color: orange;
+  }
+  
+  #tribute-info > blockquote {
+    
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+   h3 {
+    text-align: center;
+    margin: 80px auto;
+    width: 80%;
+  }
